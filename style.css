@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Syncopate:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+/*font-family: 'Poppins', sans-serif;*/
+
+
+/*___________________ sidebar ___________________*/
+
+.sidebar {
+    position: fixed;
+    width: 230px;
+    height: 100%;
+    background: black;
+    color: white;
+}
+
+.nav-menu {
+    position: absolute;
+    font-family: 'Syncopate', sans-serif;
+    font-weight: 700;
+    top: 480px;
+    left: 20px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.name,
+h3 {
+    position: absolute;
+    top: 325px;
+    left: 20px;
+    font-family: 'Syncopate', sans-serif;
+    letter-spacing: -0.05em;
+    font-size: 18px;
+}
+
+.position,
+p {
+    position: absolute;
+    top: 344px;
+    left: 20px;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 10px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.21em;
+    color: rgb(125, 125, 125);
+}
+
+hr {
+    position: absolute;
+    width: 110px;
+    left: 20px;
+    top: 575px;
+    opacity: 0.4;
+}
+
+.icons {
+    position: absolute;
+    left: 20px;
+    top: 590px;
+}
+
+.icons i {
+    font-size: 1em;
+    margin: 0 10px 0 0;
+}
