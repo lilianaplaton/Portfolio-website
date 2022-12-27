@@ -26,7 +26,7 @@ li {
 
 .sidebar {
     position: fixed;
-    width: 320px;
+    width: 280px;
     height: 100%;
     background: rgba(0, 0, 0, 0.957);
     color: rgba(228, 222, 221, 0.95);
@@ -34,53 +34,54 @@ li {
 
 .nav-menu {
     position: absolute;
-    font-size: 22px;
+    font-size: 20px;
     font-family: 'Syncopate', sans-serif;
     font-weight: 700;
-    top: 690px;
-    left: 30px;
-    line-height: 50px;
+    top: 610px;
+    left: 25px;
+    line-height: 40px;
     text-align: left;
+    letter-spacing: 0.08em;
 }
 
 .name,
 h3 {
     position: absolute;
-    top: 450px;
+    top: 390px;
     left: 25px;
     font-family: 'Syncopate', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .position,
 p {
     position: absolute;
-    top: 480px;
+    top: 410px;
     left: 25px;
     font-family: 'Syncopate', sans-serif;
     font-size: 14px;
-    line-height: 23px;
+    line-height: 18px;
     text-align: center;
-    letter-spacing: 0.22em;
+    letter-spacing: 0.05em;
     color: rgba(225, 218, 218, 0.715);
 }
 
 hr {
     position: absolute;
-    width: 110px;
-    left: 30px;
-    top: 860px;
+    width: 100px;
+    left: 25px;
+    top: 740px;
     opacity: 0.4;
 }
 
 .icons {
     position: absolute;
-    left: 30px;
-    top: 880px;
+    left: 25px;
+    top: 760px;
 }
 
 .icons i {
-    font-size: 1.6em;
+    font-size: 1.4em;
     margin: 0 15px 0 0;
     color: rgba(255, 255, 255, 0.922);
 }
