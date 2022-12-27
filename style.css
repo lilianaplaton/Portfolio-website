@@ -42,6 +42,7 @@ li {
     line-height: 40px;
     text-align: left;
     letter-spacing: 0.08em;
+    transition: 0.5s;
 }
 
 .name,
@@ -53,8 +54,7 @@ h3 {
     font-size: 20px;
 }
 
-.position,
-p {
+.position {
     position: absolute;
     top: 410px;
     left: 25px;
@@ -88,3 +88,7 @@ hr {
 
 
 /*___________________ about me ___________________*/
+
+main {
+    margin-left: 280px;
+}
