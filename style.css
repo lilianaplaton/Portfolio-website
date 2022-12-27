@@ -26,60 +26,64 @@ li {
 
 .sidebar {
     position: fixed;
-    width: 230px;
+    width: 320px;
     height: 100%;
-    background: black;
-    color: white;
+    background: rgba(0, 0, 0, 0.957);
+    color: rgba(228, 222, 221, 0.95);
 }
 
 .nav-menu {
     position: absolute;
+    font-size: 22px;
     font-family: 'Syncopate', sans-serif;
     font-weight: 700;
-    top: 480px;
-    left: 20px;
-    line-height: 30px;
+    top: 690px;
+    left: 30px;
+    line-height: 50px;
     text-align: left;
 }
 
 .name,
 h3 {
     position: absolute;
-    top: 325px;
-    left: 20px;
+    top: 450px;
+    left: 25px;
     font-family: 'Syncopate', sans-serif;
-    letter-spacing: -0.05em;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 .position,
 p {
     position: absolute;
-    top: 344px;
-    left: 20px;
+    top: 480px;
+    left: 25px;
     font-family: 'Syncopate', sans-serif;
-    font-size: 10px;
-    line-height: 16px;
+    font-size: 14px;
+    line-height: 23px;
     text-align: center;
-    letter-spacing: 0.21em;
-    color: rgb(125, 125, 125);
+    letter-spacing: 0.22em;
+    color: rgba(225, 218, 218, 0.715);
 }
 
 hr {
     position: absolute;
     width: 110px;
-    left: 20px;
-    top: 575px;
+    left: 30px;
+    top: 860px;
     opacity: 0.4;
 }
 
 .icons {
     position: absolute;
-    left: 20px;
-    top: 590px;
+    left: 30px;
+    top: 880px;
 }
 
 .icons i {
-    font-size: 1em;
-    margin: 0 10px 0 0;
+    font-size: 1.6em;
+    margin: 0 15px 0 0;
+    color: rgba(255, 255, 255, 0.922);
 }
+
+
+/*___________________ about me ___________________*/
