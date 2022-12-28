@@ -3,10 +3,11 @@
 
 <head>
     <title>Portfolio | Liliana Platon</title>
-    <link href="style.css" rel="stylesheet">
+    <meta name="author" content="Liliana Platon">
     <link rel="icon" type="image/x-icon" href="./poze/">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/8e08c52e93.js" crossorigin="anonymous"></script>
 </head>
 
@@ -26,32 +27,35 @@
                 <li><a href="#contact">contact</a></li>
             </ul>
         </div>
-        <hr>
         <div class="icons">
             <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github"></i><a>
                 <a href="https://www.linkedin.com/in/lilianaplaton/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=platonliliana1409@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
         </div>
     </div>
-
+    <i class="fa-regular fa-file-pdf"></i>
     <!--___________________ about me ___________________-->
 
     <main>
         <div id="about">
-            <h1>about about.me skills</h1>
+            <h1 class="spacing1">about <span class="font">about me</span> skills</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla natus, non quis magni esse officia iusto quam quidem nihil qui quasi omnis doloremque nisi a itaque consectetur ea illum quo.Lorem ipsum dolor sit amet consectetur adipisicing
                 elit. Nulla natus, non quis magni esse officia iusto quam quidem nihil qui quasi omnis doloremque nisi a itaque consectetur ea illum quo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla natus, non quis magni esse officia
                 iusto quam quidem nihil qui quasi omnis.</p>
-            <p>skills</p>
-            <a href="./resume.pdf" target="_blank"><button>MY RESUME<img src="./poze/download.svg"></button></a>
+            <br>
+            <p>Skills: Figma | HTML5 | CSS | GIT | JavaScript | AdobePhotoshop</p>
+
+            <a href="#" target="_blank"><button type="button">MY RESUME</button></a>
         </div>
 
         <!--____________________ portfolio ___________________-->
 
         <div id="portfolio">
-            <h1>portfolio skills work</h1>
-            <a href="#"><img src="./poze/desktop_mobile.svg"></a>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto aspernatur at unde, quam perferendis impedit dolor. Voluptas officiis, aut odit sapiente nulla, incidunt quasi ullam sed cumque, iusto quibusdam? Commodi.</p>
+            <h1 class="spacing2"><span class="font">portfolio</span> skills work</h1>
+            <div class="container">
+                <a href="https://www.figma.com/file/2FuYjZEpkgNwOcnkhzayTL/Website---VHON?node-id=122%3A25&t=DzNhp3e8z2yUamvU-0" target="_blank"><img src="./poze/desktop_mobile.svg"></a>
+                <p class="text-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto aspernatur at unde, quam perferendis impedit dolor. Voluptas officiis, aut odit sapiente nulla, incidunt quasi ullam sed cumque, iusto quibusdam? Commodi.</p>
+            </div>
             <img src="./poze/business cards_mockup.svg">
             <img src="./poze/logo_business cards.svg">
             <img src="./poze/agenda_content.svg">
@@ -61,20 +65,22 @@
         <!--_______________________ contact ______________________-->
 
         <div id="contact">
-            <h1>about.me contact work</h1>
-            <ul>
-                <li><i class="fa-solid fa-mobile-screen-button"></i>+40 757 536 817</a>
-                </li>
-                <li><i class="fa-solid fa-envelope"></i>platonliliana1409@gmail.com</a>
-                </li>
-                <li> <i class="fa-sharp fa-solid fa-location-dot"></i>Cluj-Napoca, Romania</a>
-                </li>
-                <li> <i class="fa-brands fa-github"></i>github.com/lilianaplaton</a>
-                </li>
-                <li> <i class="fa-brands fa-linkedin-in"></i>linkedin.com/in/lilianaplaton/</a>
-                </li>
-            </ul>
-            <img src="./poze/iPad Mini.svg">
+            <h1 class="spacing3"><span class="word-spacing">about me </span><span class="font">contact</span> work</h1>
+            <div class="icons-container">
+                <ul>
+                    <li><i class="fa-solid fa-mobile-screen-button"></i>+40 757 536 817</a>
+                        <li>
+                            <li> <i class="fa-solid fa-envelope"></i>platonliliana1409@gmail.com</a>
+                            </li>
+                            <li> <i class="fa-sharp fa-solid fa-location-dot"></i>Cluj-Napoca, Romania</a>
+                            </li>
+                            <li> <i class="fa-brands fa-github"></i>github.com/lilianaplaton</a>
+                            </li>
+                            <li> <i class="fa-brands fa-linkedin-in"></i>linkedin.com/in/lilianaplaton/</a>
+                            </li>
+                </ul>
+                <img src="./poze/iPad Mini.svg">
+            </div>
         </div>
 
     </main>

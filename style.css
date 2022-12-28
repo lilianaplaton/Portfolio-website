@@ -1,94 +1,164 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Syncopate:wght@400;700&display=swap');
-* {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-}
-
-body {
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-}
-
-a {
-    color: white;
-}
-
-li {
-    list-style-type: none;
-}
-
-
-/*font-family: 'Poppins', sans-serif;*/
-
-
-/*___________________ sidebar ___________________*/
-
-.sidebar {
-    position: fixed;
-    width: 280px;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.957);
-    color: rgba(228, 222, 221, 0.95);
-}
-
-.nav-menu {
-    position: absolute;
-    font-size: 20px;
-    font-family: 'Syncopate', sans-serif;
-    font-weight: 700;
-    top: 610px;
-    left: 25px;
-    line-height: 40px;
-    text-align: left;
-    letter-spacing: 0.08em;
-    transition: 0.5s;
-}
-
-.name,
-h3 {
-    position: absolute;
-    top: 390px;
-    left: 25px;
-    font-family: 'Syncopate', sans-serif;
-    font-size: 20px;
-}
-
-.position {
-    position: absolute;
-    top: 410px;
-    left: 25px;
-    font-family: 'Syncopate', sans-serif;
-    font-size: 14px;
-    line-height: 18px;
-    text-align: center;
-    letter-spacing: 0.05em;
-    color: rgba(225, 218, 218, 0.715);
-}
-
-hr {
-    position: absolute;
-    width: 100px;
-    left: 25px;
-    top: 740px;
-    opacity: 0.4;
-}
-
-.icons {
-    position: absolute;
-    left: 25px;
-    top: 760px;
-}
-
-.icons i {
-    font-size: 1.4em;
-    margin: 0 15px 0 0;
-    color: rgba(255, 255, 255, 0.922);
-}
-
-
-/*___________________ about me ___________________*/
-
-main {
-    margin-left: 280px;
-}
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Syncopate:wght@400;700&display=swap');
+            * {
+                margin: 0;
+                padding: 0;
+                text-decoration: none;
+            }
+            
+            body {
+                box-sizing: border-box;
+                font-family: 'Roboto', sans-serif;
+                background-color: #f9f9f9ed;
+                text-align: justify;
+            }
+            
+            a {
+                color: white;
+            }
+            
+            li {
+                list-style-type: none;
+            }
+            /*font-family: 'Poppins', sans-serif;*/
+            /*___________________ sidebar ___________________*/
+            
+            .sidebar {
+                position: fixed;
+                width: 280px;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.957);
+                color: rgba(228, 222, 221, 0.95);
+            }
+            
+            .nav-menu {
+                position: absolute;
+                font-size: 20px;
+                font-family: 'Syncopate', sans-serif;
+                font-weight: 700;
+                top: 610px;
+                left: 25px;
+                line-height: 40px;
+                text-align: left;
+                letter-spacing: 0.08em;
+            }
+            
+            .nav-menu a:hover {
+                -webkit-text-fill-color: transparent;
+                -webkit-text-stroke-width: 0.3px;
+                font-size: 22px;
+            }
+            
+            .name,
+            h3 {
+                position: absolute;
+                top: 390px;
+                left: 25px;
+                font-family: 'Syncopate', sans-serif;
+                font-size: 20px;
+            }
+            
+            .position {
+                position: absolute;
+                top: 410px;
+                left: 25px;
+                font-family: 'Syncopate', sans-serif;
+                font-size: 14px;
+                line-height: 18px;
+                text-align: center;
+                letter-spacing: 0.05em;
+                color: rgba(225, 218, 218, 0.715);
+            }
+            
+            .icons {
+                position: absolute;
+                left: 25px;
+                top: 750px;
+            }
+            
+            .icons i {
+                font-size: 1.4em;
+                margin: 0 13px 0 0;
+                color: rgba(184, 179, 179, 0.922);
+                transition: 0.5s;
+            }
+            
+            .icons i:hover {
+                transform: scale(1.1) translateY(-6px)
+            }
+            /*___________________ about me ___________________*/
+            
+            main {
+                margin-left: 280px;
+                padding: 0 80px;
+                font-size: 20px;
+            }
+            
+            h1 {
+                font-family: 'Syncopate', sans-serif;
+                font-size: 60px;
+                -webkit-text-fill-color: transparent;
+                -webkit-text-stroke-width: 0.5px;
+                word-spacing: 30px;
+                letter-spacing: 0.03em;
+                margin: 60px 0;
+            }
+            
+            .about,
+            p {
+                max-width: 59em;
+            }
+            
+            .font {
+                color: black;
+                -webkit-text-fill-color: black;
+                -webkit-text-stroke-width: 0;
+                word-spacing: 0;
+            }
+            
+            .word-spacing {
+                word-spacing: 0;
+            }
+            
+            .spacing1 {
+                word-spacing: 38px;
+                letter-spacing: 0.04em;
+            }
+            
+            .spacing2 {
+                word-spacing: 40px;
+                letter-spacing: 0.06em;
+            }
+            
+            .spacing3 {
+                letter-spacing: 0.02em;
+            }
+            
+            button {
+                font-size: 18px;
+                font-weight: 600;
+                color: rgba(0, 0, 0, 0.829);
+                padding: 10px 25px;
+                margin-top: 80px;
+                background: #fdfeff;
+                cursor: pointer;
+                border: none;
+                border-radius: 5px;
+                box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.346);
+            }
+            
+            button:hover {
+                background-color: black;
+                color: white;
+            }
+            /*___________________ portfolio ___________________*/
+            
+            .container {
+                display: flex;
+                align-items: center;
+            }
+            /*____________________ contact ____________________*/
+            
+            .icons-container {
+                display: flex;
+                align-items: center;
+            }
