@@ -1,228 +1,335 @@
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Syncopate:wght@400;700&display=swap');
-        * {
-            margin: 0;
-            padding: 0;
-            text-decoration: none;
-        }
-        
-        body {
-            box-sizing: border-box;
-            font-family: 'Roboto', sans-serif;
-            background-color: #f9f9f9ed;
-            text-align: justify;
-        }
-        
-        li {
-            list-style-type: none;
-        }
-        /*___________________ sidebar ___________________*/
-        
-        .sidebar {
-            position: fixed;
-            width: 250px;
-            height: 100%;
-            background: #111;
-            color: #fff;
-        }
-        
-        .nav-menu {
-            position: absolute;
-            font-size: 17px;
-            font-family: 'Syncopate', sans-serif;
-            font-weight: 700;
-            top: 480px;
-            left: 25px;
-            line-height: 40px;
-            text-align: left;
-            letter-spacing: 0.05em;
-        }
-        
-        .nav-menu,
-        a {
-            color: #fff;
-            transition: 0.5s;
-        }
-        
-        .nav-menu a:hover {
-            -webkit-text-fill-color: transparent;
-            -webkit-text-stroke-width: 0.2px;
-            font-size: 18px;
-        }
-        
-        .name,
-        h3 {
-            position: absolute;
-            top: 350px;
-            left: 25px;
-            font-family: 'Syncopate', sans-serif;
-            font-size: 18px;
-        }
-        
-        .position {
-            position: absolute;
-            top: 370px;
-            left: 25px;
-            font-family: 'Syncopate', sans-serif;
-            font-size: 12px;
-            line-height: 14px;
-            text-align: center;
-            letter-spacing: 0.09em;
-            color: rgba(225, 218, 218, 0.715);
-        }
-        
-        .icons {
-            position: absolute;
-            left: 25px;
-            top: 620px;
-        }
-        
-        .icons i {
-            font-size: 1.2em;
-            margin: 0 13px 0 0;
-            color: #fff;
-            transition: 0.5s;
-        }
-        
-        .icons i:hover {
-            transform: scale(1.1) translateY(-6px)
-        }
-        /*___________________ about me ___________________*/
-        
-        main {
-            margin-left: 320px;
-            margin-right: 60px;
-            font-size: 20px;
-        }
-        
-        h1 {
-            position: relative;
-            font-family: 'Syncopate', sans-serif;
-            font-size: 50px;
-            -webkit-text-fill-color: transparent;
-            -webkit-text-stroke-width: 0.5px;
-            margin: 40px 0;
-        }
-        
-        .about,
-        p {
-            max-width: 45.5em;
-            font-size: 1em;
-        }
-        
-        .font {
-            color: #111;
-            -webkit-text-fill-color: #111;
-            -webkit-text-stroke-width: 0;
-            word-spacing: 0;
-        }
-        
-        .word-spacing {
-            word-spacing: 0;
-        }
-        
-        .spacing1 {
-            word-spacing: 10px;
-            letter-spacing: 0.01em;
-        }
-        
-        .spacing2 {
-            word-spacing: 10px;
-            letter-spacing: 0.03em;
-        }
-        
-        .spacing3 {
-            word-spacing: 1px;
-            letter-spacing: 0.01em;
-            font-size: 48px;
-        }
-        /*button*/
-        
-        button {
-            font-size: 18px;
-            font-weight: 600;
-            color: #fff;
-            padding: 10px 25px;
-            margin-top: 80px;
-            background: #111;
-            cursor: pointer;
-            border: none;
-            border-radius: 4px;
-            margin-bottom: 40px;
-            transition: 0.5s;
-        }
-        
-        button:hover {
-            background-color: #fff;
-            border: 1px solid #111;
-            color: #111;
-        }
-        /*___________________ portfolio ___________________*/
-        
-        .desktop {
-            display: flex;
-            align-items: center;
-            align-content: center;
-            margin-bottom: 50px;
-        }
-        
-        .description {
-            background-color: #d6d6d6cb;
-            padding: 60px 60px;
-            margin-left: 50px;
-            max-width: 280px;
-            font-size: 16px;
-        }
-        
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            flex-wrap: wrap;
-            grid-gap: 40px;
-            margin-bottom: 80px;
-            max-width: 500px;
-        }
-        
-        .hoverimg {
-            position: relative;
-            max-width: 600px;
-            cursor: pointer;
-        }
-        
-        .hovertxt {
-            position: absolute;
-            opacity: 0;
-            bottom: 30px;
-            transition: 0.5s ease;
-        }
-        
-        .hoverimg:hover .hovertxt {
-            background-color: #111;
-            font-family: 'Syncopate', sans-serif;
-            font-weight: 700;
-            width: 70%;
-            padding: 10px;
-            color: #fff;
-            opacity: 0.7;
-            border-radius: 5px;
-            text-align: left;
-            font-size: 16px;
-        }
-        /*____________________ contact ____________________*/
-        
-        .contact {
-            position: absolute;
-            display: flex;
-            justify-content: space-between;
-            font-size: 20px;
-        }
-        
-        .mockup {
-            margin-left: 150px;
-            margin-bottom: 60px;
-        }
-        
-        .text {
-            margin-left: 30px;
-            font-size: 20px;
-            line-height: 45px;
-        }
+                @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Syncopate:wght@400;700&display=swap');
+                * {
+                    margin: 0;
+                    padding: 0;
+                    text-decoration: none;
+                }
+                
+                body {
+                    box-sizing: border-box;
+                    font-family: 'Roboto', sans-serif;
+                    background-color: #f9f9f9ed;
+                    text-align: justify;
+                }
+                
+                li {
+                    list-style-type: none;
+                }
+                /*___________________ sidebar ___________________*/
+                
+                .sidebar {
+                    position: fixed;
+                    top: 0;
+                    width: 250px;
+                    height: 100%;
+                    background: #111;
+                    color: #fff;
+                }
+                
+                .nav-menu {
+                    position: absolute;
+                    font-size: 16px;
+                    font-family: 'Syncopate', sans-serif;
+                    font-weight: 700;
+                    top: 500px;
+                    left: 25px;
+                    line-height: 35px;
+                    text-align: left;
+                    letter-spacing: 0.03em;
+                }
+                
+                .nav-menu,
+                a {
+                    color: #fff;
+                    transition: 0.5s;
+                }
+                
+                .nav-menu a:hover {
+                    -webkit-text-fill-color: transparent;
+                    -webkit-text-stroke-width: 0.2px;
+                    font-size: 17px;
+                }
+                
+                div.name h3 {
+                    position: absolute;
+                    top: 350px;
+                    left: 25px;
+                    font-family: 'Syncopate', sans-serif;
+                    font-size: 18px;
+                }
+                
+                div.name p {
+                    position: absolute;
+                    top: 370px;
+                    left: 25px;
+                    font-family: 'Syncopate', sans-serif;
+                    font-size: 12px;
+                    line-height: 14px;
+                    text-align: center;
+                    letter-spacing: 0.09em;
+                    color: rgba(225, 218, 218, 0.715);
+                }
+                
+                .icons {
+                    position: absolute;
+                    left: 25px;
+                    top: 600px;
+                }
+                
+                .icons i {
+                    color: #fff;
+                    font-size: 1em;
+                    margin: 0 8px 0 0;
+                    transition: 0.5s;
+                }
+                
+                .icons i:hover {
+                    transform: scale(1.1) translateY(-6px)
+                }
+                /*___________________ about me ___________________*/
+                
+                main {
+                    margin-left: 340px;
+                    font-size: 20px;
+                }
+                
+                h1 {
+                    position: relative;
+                    font-family: 'Syncopate', sans-serif;
+                    font-size: 50px;
+                    -webkit-text-fill-color: transparent;
+                    -webkit-text-stroke-width: 0.5px;
+                    margin: 40px 0;
+                }
+                
+                .about,
+                p {
+                    max-width: 45.5em;
+                    font-size: 1em;
+                }
+                
+                .font {
+                    color: #111;
+                    -webkit-text-fill-color: #111;
+                    -webkit-text-stroke-width: 0;
+                    word-spacing: 0;
+                }
+                
+                .spacing1 {
+                    word-spacing: 10px;
+                    letter-spacing: 0.01em;
+                }
+                
+                .spacing2 {
+                    word-spacing: 10px;
+                    letter-spacing: 0.03em;
+                }
+                
+                .spacing3 {
+                    word-spacing: 1px;
+                    letter-spacing: 0.01em;
+                    font-size: 48px;
+                }
+                /*button*/
+                
+                button {
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: #fff;
+                    padding: 10px 25px;
+                    margin-top: 80px;
+                    background: #111;
+                    cursor: pointer;
+                    border: none;
+                    border-radius: 4px;
+                    margin-bottom: 40px;
+                    transition: 0.5s;
+                }
+                
+                button:hover {
+                    background-color: #fff;
+                    border: 1px solid #111;
+                    color: #111;
+                }
+                /*___________________ portfolio ___________________*/
+                
+                .desktop {
+                    display: flex;
+                    align-items: center;
+                    align-content: center;
+                    margin-bottom: 20px;
+                }
+                
+                .description {
+                    background-color: #d6d6d6cb;
+                    padding: 70px 70px;
+                    margin-left: 25px;
+                    max-width: 300px;
+                    font-size: 16px;
+                    margin-bottom: 5px;
+                }
+                
+                .gallery {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    flex-wrap: wrap;
+                    grid-gap: 30px;
+                    max-width: 100px;
+                    margin-bottom: 70px;
+                }
+                
+                .hoverimg {
+                    position: relative;
+                    cursor: pointer;
+                }
+                
+                .hovertxt {
+                    position: absolute;
+                    opacity: 0;
+                    bottom: 7px;
+                    transition: 0.5s ease;
+                }
+                
+                .hoverimg:hover {
+                    opacity: 0.7;
+                }
+                
+                .hoverimg:hover .hovertxt {
+                    background-color: #111;
+                    font-family: 'Syncopate', sans-serif;
+                    font-weight: 700;
+                    width: 95.5%;
+                    padding: 10px;
+                    color: #fff;
+                    opacity: 0.9;
+                    border-radius: 5px;
+                    text-align: left;
+                    font-size: 14px;
+                }
+                /*____________________ contact ____________________*/
+                
+                div.social {
+                    display: flex;
+                    align-items: center;
+                    padding: 50px 0;
+                }
+                
+                .fa-solid,
+                .fa-brands {
+                    color: #111;
+                    margin-right: 25px;
+                    padding: 15px 0;
+                    line-height: 20px;
+                    font-size: 20px;
+                }
+                
+                .social a {
+                    color: #111;
+                    font-size: 20px;
+                }
+                
+                div.social img {
+                    margin-left: 130px;
+                }
+                /*___________________________________ @media query_responsive mobile version ______________________________________*/
+                /* sidebar */
+                
+                @media screen and (max-width: 480px) {
+                    .sidebar {
+                        position: absolute;
+                        width: 80vh;
+                        height: 90vh;
+                    }
+                    img {
+                        vertical-align: middle;
+                    }
+                    .nav-menu {
+                        display: none;
+                    }
+                    .name {
+                        left: 50px;
+                        font-size: 2.7vh;
+                    }
+                    .position {
+                        left: 50px;
+                        line-height: 16px;
+                        letter-spacing: 0.2em;
+                    }
+                    .icons {
+                        top: 460px;
+                        left: 104px;
+                    }
+                    .icons i {
+                        font-size: 3vh;
+                        margin: 0 15px 0 0;
+                    }
+                    /* about me */
+                    main {
+                        margin-top: 550px;
+                        margin-left: 30px;
+                        right: 30px;
+                    }
+                    h1 {
+                        font-size: 3vh;
+                        margin-bottom: 20px;
+                    }
+                    .about,
+                    p {
+                        margin-top: 10px;
+                        max-width: 300px;
+                        font-size: 2vh;
+                        line-height: 20px;
+                    }
+                    .spacing1 {
+                        word-spacing: 1px;
+                        letter-spacing: 0.1em;
+                    }
+                    button {
+                        font-size: 14px;
+                        margin-top: 40px;
+                        margin-bottom: 20px;
+                    }
+                    /* portfolio */
+                    .desktop {
+                        flex-direction: column;
+                    }
+                    .resp-desk,
+                    img {
+                        width: 100%;
+                    }
+                    .description {
+                        padding: 30px 30px;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                    .gallery {
+                        flex-direction: column;
+                        grid-template-columns: repeat(1, 1fr);
+                    }
+                    /* contact */
+                    .spacing3 {
+                        word-spacing: 12px;
+                        letter-spacing: 0.06em;
+                        font-size: 3vh;
+                        margin-bottom: 40px;
+                    }
+                    .contact {
+                        flex-direction: column;
+                        font-size: 2.5vh;
+                    }
+                    .text {
+                        font-size: 2vh;
+                        line-height: 30px;
+                        align-content: center;
+                    }
+                    .mockup {
+                        width: 50%;
+                        margin-top: 50px;
+                        margin-left: 10px;
+                    }
+                    .resp-desk img {
+                        width: 10%;
+                        height: 10%;
+                    }
+                }
+                /*
