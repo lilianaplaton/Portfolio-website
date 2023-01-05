@@ -153,22 +153,6 @@
                 }
                 /*___________________ portfolio ___________________*/
                 
-                .desktop {
-                    display: flex;
-                    align-items: center;
-                    align-content: center;
-                    margin-bottom: 20px;
-                }
-                
-                .description {
-                    background-color: #d6d6d6cb;
-                    padding: 70px 70px;
-                    margin-left: 25px;
-                    max-width: 300px;
-                    font-size: 16px;
-                    margin-bottom: 5px;
-                }
-                
                 .gallery {
                     display: grid;
                     grid-template-columns: repeat(2, 1fr);
@@ -186,12 +170,8 @@
                 .hovertxt {
                     position: absolute;
                     opacity: 0;
-                    bottom: 7px;
+                    bottom: 5px;
                     transition: 0.5s ease;
-                }
-                
-                .hoverimg:hover {
-                    opacity: 0.7;
                 }
                 
                 .hoverimg:hover .hovertxt {
@@ -202,7 +182,6 @@
                     padding: 10px;
                     color: #fff;
                     opacity: 0.9;
-                    border-radius: 5px;
                     text-align: left;
                     font-size: 14px;
                 }
@@ -234,102 +213,5 @@
                 /*___________________________________ @media query_responsive mobile version ______________________________________*/
                 /* sidebar */
                 
-                @media screen and (max-width: 480px) {
-                    .sidebar {
-                        position: absolute;
-                        width: 80vh;
-                        height: 90vh;
-                    }
-                    img {
-                        vertical-align: middle;
-                    }
-                    .nav-menu {
-                        display: none;
-                    }
-                    .name {
-                        left: 50px;
-                        font-size: 2.7vh;
-                    }
-                    .position {
-                        left: 50px;
-                        line-height: 16px;
-                        letter-spacing: 0.2em;
-                    }
-                    .icons {
-                        top: 460px;
-                        left: 104px;
-                    }
-                    .icons i {
-                        font-size: 3vh;
-                        margin: 0 15px 0 0;
-                    }
-                    /* about me */
-                    main {
-                        margin-top: 550px;
-                        margin-left: 30px;
-                        right: 30px;
-                    }
-                    h1 {
-                        font-size: 3vh;
-                        margin-bottom: 20px;
-                    }
-                    .about,
-                    p {
-                        margin-top: 10px;
-                        max-width: 300px;
-                        font-size: 2vh;
-                        line-height: 20px;
-                    }
-                    .spacing1 {
-                        word-spacing: 1px;
-                        letter-spacing: 0.1em;
-                    }
-                    button {
-                        font-size: 14px;
-                        margin-top: 40px;
-                        margin-bottom: 20px;
-                    }
-                    /* portfolio */
-                    .desktop {
-                        flex-direction: column;
-                    }
-                    .resp-desk,
-                    img {
-                        width: 100%;
-                    }
-                    .description {
-                        padding: 30px 30px;
-                        margin-left: auto;
-                        margin-right: auto;
-                    }
-                    .gallery {
-                        flex-direction: column;
-                        grid-template-columns: repeat(1, 1fr);
-                    }
-                    /* contact */
-                    .spacing3 {
-                        word-spacing: 12px;
-                        letter-spacing: 0.06em;
-                        font-size: 3vh;
-                        margin-bottom: 40px;
-                    }
-                    .contact {
-                        flex-direction: column;
-                        font-size: 2.5vh;
-                    }
-                    .text {
-                        font-size: 2vh;
-                        line-height: 30px;
-                        align-content: center;
-                    }
-                    .mockup {
-                        width: 50%;
-                        margin-top: 50px;
-                        margin-left: 10px;
-                    }
-                    .resp-desk img {
-                        width: 10%;
-                        height: 10%;
-                    }
-                }
+                @media screen and (max-width: 480px) {}
                 /*
