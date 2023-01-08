@@ -235,6 +235,13 @@
                     font-size: 20px;
                     margin-right: 120px;
                 }
+                
+                .upbtn {
+                    width: 50px;
+                    float: right;
+                    margin-top: 10px;
+                    display: none;
+                }
                 /*___________________________________ @media query_responsive mobile version ______________________________________*/
                 
                 @media screen and (max-width: 480px) {
@@ -270,6 +277,7 @@
                     }
                     /* about me */
                     main {
+                        position: absolute;
                         top: 760px;
                         margin-left: 30px;
                     }
@@ -285,7 +293,6 @@
                     #about,
                     p {
                         font-size: 16px;
-                        margin-right: 15px;
                     }
                     button {
                         font-size: 16px;
@@ -298,22 +305,22 @@
                         margin: -100px 20px;
                         color: rgba(0, 0, 0, 0.103);
                     }
-                    .description {
-                        margin-right: 30px;
-                    }
                     .container img {
                         width: 420px;
                     }
                     .gallery {
                         gap: 15px;
                     }
+                    .text {
+                        font-size: 13px;
+                    }
                     /* contact */
-                    #contact p {
-                        margin-right: 30px;
+                    .social {
+                        padding: 30px 0;
                     }
                     .fa-solid,
                     .fa-brands {
-                        line-height: 18px;
+                        line-height: 10px;
                         font-size: 20px;
                     }
                     .social a {
@@ -322,7 +329,10 @@
                         margin-right: 120px;
                     }
                     .mockup {
-                        width: 300px;
-                        margin: 20px 30px;
+                        display: none;
+                    }
+                    .upbtn {
+                        display: block;
+                        margin-bottom: 20px;
                     }
                 }
