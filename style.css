@@ -237,76 +237,76 @@
                 }
                 
                 .upbtn {
-                    width: 50px;
+                    width: 65px;
                     float: right;
                     margin-top: 10px;
                     display: none;
                 }
                 /*___________________________________ @media query_responsive mobile version ______________________________________*/
                 
-                @media screen and (max-width: 480px) {
+                @media screen and (max-width: 640px) {
                     /* sidebar */
                     .sidebar {
                         position: absolute;
-                        width: 480px;
+                        width: 640px;
                         height: 170vw;
                         overflow: hidden;
                     }
                     .sidebar img {
-                        width: 480px;
+                        width: 640px;
                     }
                     .nav-menu {
                         display: none;
                     }
                     .name h3 {
-                        font-size: 6vw;
-                        padding: 20px 75px;
+                        font-size: 5vw;
+                        padding: 30px 130px;
                     }
                     .name p {
-                        font-size: 4.4vw;
-                        padding: 50px 75px;
-                        line-height: 25px;
+                        font-size: 3.7vw;
+                        padding: 70px 130px;
+                        line-height: 30px;
                     }
                     .icons {
-                        left: 170px;
-                        top: 760px;
+                        left: 225px;
+                        top: 94%;
                     }
                     .icons i {
                         font-size: 6vw;
-                        margin: 0 15px 0 0;
+                        margin: 0 20px 0 0;
                     }
                     /* about me */
                     main {
                         position: absolute;
-                        top: 760px;
-                        margin-left: 30px;
+                        top: 114%;
+                        margin-left: 40px;
                     }
                     h1 {
-                        font-size: 8vw;
-                        margin: 110px 0 30px 0;
+                        font-size: 7vw;
+                        margin: 110px 0 40px 0;
                     }
                     .fonts {
-                        font-size: 10vw;
-                        margin: -100px 20px;
+                        font-size: 9.7vw;
+                        margin: -120px 40px;
                         color: rgba(0, 0, 0, 0.212);
                     }
                     #about,
                     p {
-                        font-size: 16px;
+                        font-size: 18px;
                     }
                     button {
-                        font-size: 16px;
-                        margin-top: 50px;
-                        margin-bottom: 2px;
+                        font-size: 18px;
+                        margin-top: 60px;
+                        margin-bottom: 10px;
                     }
                     /* portfolio */
                     .font {
                         font-size: 10vw;
-                        margin: -100px 20px;
+                        margin: -120px 30px;
                         color: rgba(0, 0, 0, 0.103);
                     }
                     .container img {
-                        width: 420px;
+                        width: 570px;
                     }
                     .gallery {
                         gap: 15px;
@@ -325,14 +325,16 @@
                     }
                     .social a {
                         color: #111;
-                        font-size: 18px;
+                        font-size: 20px;
                         margin-right: 120px;
                     }
                     .mockup {
                         display: none;
                     }
                     .upbtn {
+                        position: absolute;
                         display: block;
-                        margin-bottom: 20px;
+                        top: 97%;
+                        left: 85%;
                     }
                 }
