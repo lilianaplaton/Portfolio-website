@@ -3,10 +3,10 @@
                     margin: 0;
                     padding: 0;
                     text-decoration: none;
+                    box-sizing: border-box;
                 }
                 
                 body {
-                    box-sizing: border-box;
                     font-family: 'Roboto', sans-serif;
                     background-color: #f9f9f9ed;
                     text-align: justify;
@@ -24,6 +24,12 @@
                     height: 100%;
                     background: #111;
                     color: #fff;
+                    overflow: auto;
+                }
+                
+                .sidebar img {
+                    width: 250px;
+                    height: auto;
                 }
                 
                 .nav-menu {
@@ -31,11 +37,10 @@
                     font-size: 16px;
                     font-family: 'Syncopate', sans-serif;
                     font-weight: 700;
-                    top: 500px;
-                    left: 25px;
                     line-height: 35px;
+                    letter-spacing: 0.04em;
                     text-align: left;
-                    letter-spacing: 0.03em;
+                    padding: 150px 25px;
                 }
                 
                 .nav-menu,
@@ -50,23 +55,20 @@
                     font-size: 17px;
                 }
                 
-                div.name h3 {
+                .name h3 {
                     position: absolute;
-                    top: 350px;
-                    left: 25px;
+                    padding: 10px 25px;
                     font-family: 'Syncopate', sans-serif;
-                    font-size: 18px;
+                    font-size: 16px;
                 }
                 
-                div.name p {
+                .name p {
                     position: absolute;
-                    top: 370px;
-                    left: 25px;
+                    padding: 30px 25px;
                     font-family: 'Syncopate', sans-serif;
                     font-size: 12px;
                     line-height: 14px;
                     text-align: center;
-                    letter-spacing: 0.09em;
                     color: rgba(225, 218, 218, 0.715);
                 }
                 
@@ -79,17 +81,17 @@
                 .icons i {
                     color: #fff;
                     font-size: 1em;
-                    margin: 0 8px 0 0;
+                    margin: 0 10px 0 0;
                     transition: 0.5s;
                 }
                 
                 .icons i:hover {
-                    transform: scale(1.1) translateY(-6px)
+                    transform: scale(1) translateY(-6px)
                 }
                 /*___________________ about me ___________________*/
                 
                 main {
-                    margin-left: 340px;
+                    margin: 0 80px 0 340px;
                     font-size: 20px;
                 }
                 
@@ -97,38 +99,35 @@
                     position: relative;
                     font-family: 'Syncopate', sans-serif;
                     font-size: 50px;
+                    margin: 90px 0 40px 0;
+                }
+                
+                .font {
+                    position: absolute;
+                    font-family: 'Syncopate', sans-serif;
+                    font-weight: 700;
+                    margin: -140px 20px;
+                    font-size: 80px;
+                    letter-spacing: 0.05em;
+                    color: rgba(0, 0, 0, 0.05);
+                }
+                
+                .fonts {
+                    position: absolute;
+                    font-family: 'Syncopate', sans-serif;
+                    font-weight: 700;
+                    margin: -140px 20px;
+                    font-size: 80px;
+                    letter-spacing: 0.05em;
+                    color: rgba(0, 0, 0, 0.11);
                     -webkit-text-fill-color: transparent;
-                    -webkit-text-stroke-width: 0.5px;
-                    margin: 40px 0;
+                    -webkit-text-stroke-width: 1px;
                 }
                 
                 .about,
                 p {
                     max-width: 45.5em;
                     font-size: 1em;
-                }
-                
-                .font {
-                    color: #111;
-                    -webkit-text-fill-color: #111;
-                    -webkit-text-stroke-width: 0;
-                    word-spacing: 0;
-                }
-                
-                .spacing1 {
-                    word-spacing: 10px;
-                    letter-spacing: 0.01em;
-                }
-                
-                .spacing2 {
-                    word-spacing: 10px;
-                    letter-spacing: 0.03em;
-                }
-                
-                .spacing3 {
-                    word-spacing: 1px;
-                    letter-spacing: 0.01em;
-                    font-size: 48px;
                 }
                 /*button*/
                 
@@ -142,7 +141,7 @@
                     cursor: pointer;
                     border: none;
                     border-radius: 4px;
-                    margin-bottom: 40px;
+                    margin-bottom: 30px;
                     transition: 0.5s;
                 }
                 
@@ -153,44 +152,72 @@
                 }
                 /*___________________ portfolio ___________________*/
                 
-                .gallery {
-                    display: grid;
-                    grid-template-columns: repeat(2, 1fr);
-                    flex-wrap: wrap;
-                    grid-gap: 30px;
-                    max-width: 100px;
-                    margin-bottom: 70px;
+                .description {
+                    margin-bottom: 30px;
                 }
                 
-                .hoverimg {
-                    position: relative;
+                img {
+                    width: 450px;
+                    object-fit: cover;
+                }
+                
+                .gallery {
+                    display: flex;
+                    width: 100%;
+                    max-width: 1200px;
+                    flex-wrap: wrap;
+                    gap: 15px;
+                    justify-content: left;
                     cursor: pointer;
                 }
                 
-                .hovertxt {
-                    position: absolute;
-                    opacity: 0;
-                    bottom: 5px;
-                    transition: 0.5s ease;
+                .container {
+                    position: relative;
                 }
                 
-                .hoverimg:hover .hovertxt {
+                .image {
+                    display: block;
+                    height: auto;
+                }
+                
+                .image:hover {
+                    opacity: 0.5;
+                }
+                
+                .overlay {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
                     background-color: #111;
+                    overflow: hidden;
+                    width: 100%;
+                    height: 0;
+                    border-radius: 15px 15px 0 0;
+                    transition: .5s ease;
+                }
+                
+                .container:hover .overlay {
+                    width: 100%;
+                    height: 12%;
+                    padding: 11px;
+                }
+                
+                .text {
                     font-family: 'Syncopate', sans-serif;
-                    font-weight: 700;
-                    width: 95.5%;
-                    padding: 10px;
                     color: #fff;
-                    opacity: 0.9;
-                    text-align: left;
                     font-size: 14px;
+                    width: 100%;
+                    text-align: left;
+                    letter-spacing: 0.08em;
                 }
                 /*____________________ contact ____________________*/
                 
-                div.social {
+                .social {
                     display: flex;
                     align-items: center;
                     padding: 50px 0;
+                    flex-wrap: wrap;
                 }
                 
                 .fa-solid,
@@ -205,13 +232,9 @@
                 .social a {
                     color: #111;
                     font-size: 20px;
-                }
-                
-                div.social img {
-                    margin-left: 130px;
+                    margin-right: 120px;
                 }
                 /*___________________________________ @media query_responsive mobile version ______________________________________*/
                 /* sidebar */
                 
                 @media screen and (max-width: 480px) {}
-                /*
