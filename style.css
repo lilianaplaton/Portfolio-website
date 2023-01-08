@@ -237,7 +237,7 @@
                 }
                 
                 .upbtn {
-                    width: 65px;
+                    width: 70px;
                     float: right;
                     margin-top: 10px;
                     display: none;
@@ -250,20 +250,21 @@
                         position: absolute;
                         width: 640px;
                         height: 120%;
+                        overflow: hidden;
                     }
                     .sidebar img {
-                        width: 640px;
+                        width: 100%;
                         height: auto;
                     }
                     .nav-menu {
                         display: none;
                     }
                     .name h3 {
-                        font-size: 5vw;
+                        font-size: 30px;
                         padding: 30px 130px;
                     }
                     .name p {
-                        font-size: 3.7vw;
+                        font-size: 22px;
                         padding: 70px 130px;
                         line-height: 30px;
                     }
@@ -272,22 +273,22 @@
                         top: 94%;
                     }
                     .icons i {
-                        font-size: 6vw;
+                        font-size: 30px;
                         margin: 0 20px 0 0;
                     }
                     /* about me */
                     main {
                         position: absolute;
-                        top: 115%;
+                        top: 116%;
                         margin-left: 40px;
                     }
                     h1 {
-                        font-size: 7vw;
+                        font-size: 50px;
                         margin: 110px 0 40px 0;
                     }
                     .fonts {
-                        font-size: 9.7vw;
-                        margin: -120px 40px;
+                        font-size: 67px;
+                        margin: -125px 20px;
                         color: rgba(0, 0, 0, 0.212);
                     }
                     #about,
@@ -302,7 +303,7 @@
                     /* portfolio */
                     .font {
                         font-size: 10vw;
-                        margin: -120px 30px;
+                        margin: -130px 30px;
                         color: rgba(0, 0, 0, 0.103);
                     }
                     .container img {
