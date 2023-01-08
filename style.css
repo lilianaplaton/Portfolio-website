@@ -240,7 +240,7 @@
                 @media screen and (max-width: 480px) {
                     /* sidebar */
                     .sidebar {
-                        position: relative;
+                        position: absolute;
                         width: 480px;
                         height: 170vw;
                         overflow: hidden;
@@ -261,10 +261,10 @@
                         line-height: 25px;
                     }
                     /* about me */
-                    .main {
-                        display: block;
-                        position: absolute;
-                        margin-left: 0;
+                    main {
+                        top: 760px;
+                        margin-left: 30px;
+                        margin-right: 30px;
                     }
                     /* portfolio */
                     .gallery {
