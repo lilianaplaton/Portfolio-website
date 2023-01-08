@@ -249,11 +249,11 @@
                     .sidebar {
                         position: absolute;
                         width: 640px;
-                        height: 170vw;
-                        overflow: hidden;
+                        height: 120%;
                     }
                     .sidebar img {
                         width: 640px;
+                        height: auto;
                     }
                     .nav-menu {
                         display: none;
@@ -278,7 +278,7 @@
                     /* about me */
                     main {
                         position: absolute;
-                        top: 114%;
+                        top: 115%;
                         margin-left: 40px;
                     }
                     h1 {
