@@ -249,7 +249,7 @@
                     .sidebar {
                         position: absolute;
                         width: 640px;
-                        height: 118%;
+                        height: 168%;
                         overflow: hidden;
                     }
                     .sidebar img {
@@ -269,7 +269,7 @@
                     }
                     .icons {
                         left: 240px;
-                        top: 94%;
+                        top: 95%;
                     }
                     .icons i {
                         font-size: 30px;
@@ -278,7 +278,7 @@
                     /* about me */
                     main {
                         position: absolute;
-                        top: 115%;
+                        top: 162%;
                         margin-left: 40px;
                     }
                     h1 {
@@ -286,8 +286,8 @@
                         margin: 110px 0 40px 0;
                     }
                     .fonts {
-                        font-size: 67px;
-                        margin: -125px 20px;
+                        font-size: 64px;
+                        margin: -130px 20px;
                         color: rgba(0, 0, 0, 0.212);
                     }
                     #about,
@@ -301,18 +301,21 @@
                     }
                     /* portfolio */
                     .font {
-                        font-size: 67;
+                        font-size: 65px;
                         margin: -130px 30px;
                         color: rgba(0, 0, 0, 0.103);
                     }
                     .container img {
-                        width: 570px;
+                        width: 550px;
                     }
                     .gallery {
                         gap: 15px;
                     }
                     .text {
-                        font-size: 13px;
+                        font-size: 14px;
+                    }
+                    .container:hover .overlay {
+                        height: 10%;
                     }
                     /* contact */
                     .social {
