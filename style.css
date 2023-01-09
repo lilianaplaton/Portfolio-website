@@ -249,27 +249,26 @@
                     .sidebar {
                         position: absolute;
                         width: 640px;
-                        height: 120%;
+                        height: 118%;
                         overflow: hidden;
                     }
                     .sidebar img {
                         width: 100%;
-                        height: auto;
                     }
                     .nav-menu {
                         display: none;
                     }
                     .name h3 {
                         font-size: 30px;
-                        padding: 30px 130px;
+                        padding: 30px 150px;
                     }
                     .name p {
                         font-size: 22px;
-                        padding: 70px 130px;
+                        padding: 70px 150px;
                         line-height: 30px;
                     }
                     .icons {
-                        left: 225px;
+                        left: 240px;
                         top: 94%;
                     }
                     .icons i {
@@ -279,7 +278,7 @@
                     /* about me */
                     main {
                         position: absolute;
-                        top: 116%;
+                        top: 115%;
                         margin-left: 40px;
                     }
                     h1 {
@@ -302,7 +301,7 @@
                     }
                     /* portfolio */
                     .font {
-                        font-size: 10vw;
+                        font-size: 67;
                         margin: -130px 30px;
                         color: rgba(0, 0, 0, 0.103);
                     }
