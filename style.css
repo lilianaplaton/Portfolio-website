@@ -249,7 +249,7 @@
                     .sidebar {
                         position: absolute;
                         width: 640px;
-                        height: 118%;
+                        height: 116%;
                         overflow: hidden;
                     }
                     .sidebar img {
@@ -278,7 +278,7 @@
                     /* about me */
                     main {
                         position: absolute;
-                        top: 116%;
+                        top: 114%;
                         margin-left: 45px;
                     }
                     h1 {
