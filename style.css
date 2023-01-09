@@ -244,29 +244,34 @@
                       }
                       /*___________________________________ @media query_responsive mobile version ______________________________________*/
                       
-                      @media screen and (max-width: 278px) {
+                      @media screen and (max-width: 480px) {
                           .sidebar {
-                              width: 278px;
-                              height: 82%;
+                              position: absolute;
+                              width: 480px;
+                              height: 78%;
+                              overflow: hidden;
                           }
                           .sidebar img {
                               width: 100%;
                           }
                           .name h3 {
-                              font-size: 18px;
-                              padding: 20px 35px;
+                              font-size: 24px;
+                              padding: 22px 70px;
                           }
                           .name p {
-                              font-size: 13.5px;
-                              padding: 40px 35px;
+                              font-size: 18px;
+                              padding: 50px 70px;
                               line-height: 20px;
                           }
                           .icons i {
-                              font-size: 18px;
+                              font-size: 26px;
                           }
                           .icons {
-                              left: 80px;
-                              top: 92%;
+                              left: 150px;
+                              top: 93%;
+                          }
+                          .nav-menu {
+                              display: none;
                           }
                           /* about me */
                           main {
@@ -281,6 +286,6 @@
                               font-size: 14px;
                           }
                           .gallery img {
-                              width: 240px;
+                              width: 370px;
                           }
                       }
