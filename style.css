@@ -237,7 +237,7 @@
                 }
                 
                 .upbtn {
-                    width: 70px;
+                    width: 80px;
                     float: right;
                     margin-top: 10px;
                     display: none;
@@ -249,7 +249,7 @@
                     .sidebar {
                         position: absolute;
                         width: 640px;
-                        height: 168%;
+                        height: 118%;
                         overflow: hidden;
                     }
                     .sidebar img {
@@ -278,8 +278,8 @@
                     /* about me */
                     main {
                         position: absolute;
-                        top: 162%;
-                        margin-left: 40px;
+                        top: 116%;
+                        margin-left: 45px;
                     }
                     h1 {
                         font-size: 50px;
@@ -292,7 +292,7 @@
                     }
                     #about,
                     p {
-                        font-size: 18px;
+                        font-size: 22px;
                     }
                     button {
                         font-size: 18px;
