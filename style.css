@@ -248,11 +248,11 @@
                           .sidebar {
                               position: absolute;
                               width: 608px;
-                              height: 150%;
+                              height: 60%;
                               overflow: hidden;
                           }
                           .sidebar img {
-                              width: 100%;
+                              width: 50%;
                               height: auto;
                           }
                           .name h3 {
@@ -277,22 +277,17 @@
                           /* about me */
                           main {
                               position: absolute;
-                              top: 140%;
+                              top: 60%;
                               margin-left: 20px;
                           }
                           h1 {
                               font-size: 25px;
                           }
                           p {
-                              font-size: 14px;
+                              font-size: 16px;
                           }
-                          .gallery img {
-                              width: 500px;
-                          }
-                          .fonts {
-                              font-size: 20px;
-                          }
-                          .font {
-                              font-size: 20px;
+                          .gallery,
+                          img {
+                              width: 270px;
                           }
                       }
