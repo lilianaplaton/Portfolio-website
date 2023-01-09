@@ -1,343 +1,355 @@
-                @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Syncopate:wght@400;700&display=swap');
-                * {
-                    margin: 0;
-                    padding: 0;
-                    text-decoration: none;
-                    box-sizing: border-box;
-                }
-                
-                body {
-                    font-family: 'Roboto', sans-serif;
-                    background-color: #f9f9f9ed;
-                    text-align: justify;
-                }
-                
-                li {
-                    list-style-type: none;
-                }
-                /*___________________ sidebar ___________________*/
-                
-                .sidebar {
-                    position: fixed;
-                    top: 0;
-                    width: 250px;
-                    height: 100%;
-                    background: #111;
-                    color: #fff;
-                    overflow: auto;
-                }
-                
-                .sidebar img {
-                    width: 250px;
-                    height: auto;
-                }
-                
-                .nav-menu {
-                    position: absolute;
-                    font-size: 16px;
-                    font-family: 'Syncopate', sans-serif;
-                    font-weight: 700;
-                    line-height: 35px;
-                    letter-spacing: 0.04em;
-                    text-align: left;
-                    padding: 150px 25px;
-                }
-                
-                .nav-menu,
-                a {
-                    color: #fff;
-                    transition: 0.5s;
-                }
-                
-                .nav-menu a:hover {
-                    -webkit-text-fill-color: transparent;
-                    -webkit-text-stroke-width: 0.2px;
-                    font-size: 17px;
-                }
-                
-                .name h3 {
-                    position: absolute;
-                    padding: 10px 25px;
-                    font-family: 'Syncopate', sans-serif;
-                    font-size: 16px;
-                }
-                
-                .name p {
-                    position: absolute;
-                    padding: 30px 25px;
-                    font-family: 'Syncopate', sans-serif;
-                    font-size: 12px;
-                    line-height: 14px;
-                    text-align: center;
-                    color: rgba(225, 218, 218, 0.715);
-                }
-                
-                .icons {
-                    position: absolute;
-                    left: 25px;
-                    top: 600px;
-                }
-                
-                .icons i {
-                    color: #fff;
-                    font-size: 1em;
-                    margin: 0 10px 0 0;
-                    transition: 0.5s;
-                }
-                
-                .icons i:hover {
-                    transform: scale(1) translateY(-6px)
-                }
-                /*___________________ about me ___________________*/
-                
-                main {
-                    position: absolute;
-                    margin: 0 80px 0 340px;
-                    font-size: 20px;
-                }
-                
-                h1 {
-                    position: relative;
-                    font-family: 'Syncopate', sans-serif;
-                    font-size: 50px;
-                    margin: 90px 0 40px 0;
-                }
-                
-                .font {
-                    position: absolute;
-                    font-family: 'Syncopate', sans-serif;
-                    font-weight: 700;
-                    margin: -140px 20px;
-                    font-size: 80px;
-                    letter-spacing: 0.05em;
-                    color: rgba(0, 0, 0, 0.05);
-                }
-                
-                .fonts {
-                    position: absolute;
-                    font-family: 'Syncopate', sans-serif;
-                    font-weight: 700;
-                    margin: -140px 20px;
-                    font-size: 80px;
-                    letter-spacing: 0.05em;
-                    color: rgba(0, 0, 0, 0.11);
-                    -webkit-text-fill-color: transparent;
-                    -webkit-text-stroke-width: 1px;
-                }
-                
-                #about,
-                p {
-                    max-width: 45.5em;
-                    font-size: 1em;
-                }
-                /*button*/
-                
-                button {
-                    font-size: 16px;
-                    font-weight: 600;
-                    color: #fff;
-                    padding: 10px 25px;
-                    margin-top: 80px;
-                    background: #111;
-                    cursor: pointer;
-                    border: none;
-                    border-radius: 4px;
-                    margin-bottom: 30px;
-                    transition: 0.5s;
-                }
-                
-                button:hover {
-                    background-color: #fff;
-                    border: 1px solid #111;
-                    color: #111;
-                }
-                /*___________________ portfolio ___________________*/
-                
-                .description {
-                    margin-bottom: 30px;
-                }
-                
-                img {
-                    width: 450px;
-                    object-fit: cover;
-                }
-                
-                .gallery {
-                    display: flex;
-                    width: 100%;
-                    max-width: 1200px;
-                    flex-wrap: wrap;
-                    gap: 15px;
-                    justify-content: left;
-                    cursor: pointer;
-                }
-                
-                .container {
-                    position: relative;
-                }
-                
-                .image {
-                    display: block;
-                    height: auto;
-                }
-                
-                .image:hover {
-                    opacity: 0.5;
-                }
-                
-                .overlay {
-                    position: absolute;
-                    bottom: 0;
-                    left: 0;
-                    right: 0;
-                    background-color: #111;
-                    overflow: hidden;
-                    width: 100%;
-                    height: 0;
-                    border-radius: 15px 15px 0 0;
-                    transition: .5s ease;
-                }
-                
-                .container:hover .overlay {
-                    width: 100%;
-                    height: 12%;
-                    padding: 11px;
-                }
-                
-                .text {
-                    font-family: 'Syncopate', sans-serif;
-                    color: #fff;
-                    font-size: 14px;
-                    width: 100%;
-                    text-align: left;
-                    letter-spacing: 0.08em;
-                }
-                /*____________________ contact ____________________*/
-                
-                .social {
-                    display: flex;
-                    align-items: center;
-                    padding: 50px 0;
-                    flex-wrap: wrap;
-                }
-                
-                .fa-solid,
-                .fa-brands {
-                    color: #111;
-                    margin-right: 25px;
-                    padding: 15px 0;
-                    line-height: 20px;
-                    font-size: 20px;
-                }
-                
-                .social a {
-                    color: #111;
-                    font-size: 20px;
-                    margin-right: 120px;
-                }
-                
-                .upbtn {
-                    width: 80px;
-                    float: right;
-                    margin-top: 10px;
-                    display: none;
-                }
-                /*___________________________________ @media query_responsive mobile version ______________________________________*/
-                
-                @media screen and (max-width: 640px) {
-                    /* sidebar */
-                    .sidebar {
-                        position: absolute;
-                        width: 640px;
-                        height: 116%;
-                        overflow: hidden;
-                    }
-                    .sidebar img {
-                        width: 100%;
-                    }
-                    .nav-menu {
-                        display: none;
-                    }
-                    .name h3 {
-                        font-size: 30px;
-                        padding: 30px 150px;
-                    }
-                    .name p {
-                        font-size: 22px;
-                        padding: 70px 150px;
-                        line-height: 30px;
-                    }
-                    .icons {
-                        left: 240px;
-                        top: 95%;
-                    }
-                    .icons i {
-                        font-size: 30px;
-                        margin: 0 20px 0 0;
-                    }
-                    /* about me */
-                    main {
-                        position: absolute;
-                        top: 114%;
-                        margin-left: 45px;
-                    }
-                    h1 {
-                        font-size: 50px;
-                        margin: 110px 0 40px 0;
-                    }
-                    .fonts {
-                        font-size: 64px;
-                        margin: -130px 20px;
-                        color: rgba(0, 0, 0, 0.212);
-                    }
-                    #about,
-                    p {
-                        font-size: 22px;
-                    }
-                    button {
-                        font-size: 18px;
-                        margin-top: 60px;
-                        margin-bottom: 10px;
-                    }
-                    /* portfolio */
-                    .font {
-                        font-size: 65px;
-                        margin: -130px 30px;
-                        color: rgba(0, 0, 0, 0.103);
-                    }
-                    .container img {
-                        width: 550px;
-                    }
-                    .gallery {
-                        gap: 15px;
-                    }
-                    .text {
-                        font-size: 14px;
-                    }
-                    .container:hover .overlay {
-                        height: 10%;
-                    }
-                    /* contact */
-                    .social {
-                        padding: 30px 0;
-                    }
-                    .fa-solid,
-                    .fa-brands {
-                        line-height: 10px;
-                        font-size: 20px;
-                    }
-                    .social a {
-                        color: #111;
-                        font-size: 20px;
-                        margin-right: 120px;
-                    }
-                    .mockup {
-                        display: none;
-                    }
-                    .upbtn {
-                        position: absolute;
-                        display: block;
-                        top: 97%;
-                        left: 85%;
-                    }
-                }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Syncopate:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9ed;
+    text-align: justify;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+/*___________________ sidebar ___________________*/
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background: #111;
+    color: #fff;
+    overflow: auto;
+}
+
+.sidebar img {
+    width: 250px;
+    height: auto;
+}
+
+.nav-menu {
+    position: absolute;
+    font-size: 16px;
+    font-family: 'Syncopate', sans-serif;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    padding: 150px 25px;
+}
+
+.nav-menu,
+a {
+    color: #fff;
+    transition: 0.5s;
+}
+
+.nav-menu a:hover {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 0.2px;
+    font-size: 17px;
+}
+
+.name h3 {
+    position: absolute;
+    padding: 10px 25px;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 16px;
+}
+
+.name p {
+    position: absolute;
+    padding: 30px 25px;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: rgba(225, 218, 218, 0.715);
+}
+
+.icons {
+    position: absolute;
+    left: 25px;
+    top: 600px;
+}
+
+.icons i {
+    color: #fff;
+    font-size: 1em;
+    margin: 0 10px 0 0;
+    transition: 0.5s;
+}
+
+.icons i:hover {
+    transform: scale(1) translateY(-6px)
+}
+
+
+/*___________________ about me ___________________*/
+
+main {
+    position: absolute;
+    margin: 0 80px 0 340px;
+    font-size: 20px;
+}
+
+h1 {
+    position: relative;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 50px;
+    margin: 90px 0 40px 0;
+}
+
+.font {
+    position: absolute;
+    font-family: 'Syncopate', sans-serif;
+    font-weight: 700;
+    margin: -140px 20px;
+    font-size: 80px;
+    letter-spacing: 0.05em;
+    color: rgba(0, 0, 0, 0.05);
+}
+
+.fonts {
+    position: absolute;
+    font-family: 'Syncopate', sans-serif;
+    font-weight: 700;
+    margin: -140px 20px;
+    font-size: 80px;
+    letter-spacing: 0.05em;
+    color: rgba(0, 0, 0, 0.11);
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+}
+
+#about,
+p {
+    max-width: 45.5em;
+    font-size: 1em;
+}
+
+
+/*button*/
+
+button {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    padding: 10px 25px;
+    margin-top: 80px;
+    background: #111;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: #fff;
+    border: 1px solid #111;
+    color: #111;
+}
+
+
+/*___________________ portfolio ___________________*/
+
+.description {
+    margin-bottom: 30px;
+}
+
+img {
+    width: 450px;
+    object-fit: cover;
+}
+
+.gallery {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: left;
+    cursor: pointer;
+}
+
+.container {
+    position: relative;
+}
+
+.image {
+    display: block;
+    height: auto;
+}
+
+.image:hover {
+    opacity: 0.5;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #111;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    border-radius: 15px 15px 0 0;
+    transition: .5s ease;
+}
+
+.container:hover .overlay {
+    width: 100%;
+    height: 12%;
+    padding: 11px;
+}
+
+.text {
+    font-family: 'Syncopate', sans-serif;
+    color: #fff;
+    font-size: 14px;
+    width: 100%;
+    text-align: left;
+    letter-spacing: 0.08em;
+}
+
+
+/*____________________ contact ____________________*/
+
+.social {
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+    flex-wrap: wrap;
+}
+
+.fa-solid,
+.fa-brands {
+    color: #111;
+    margin-right: 25px;
+    padding: 15px 0;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+.social a {
+    color: #111;
+    font-size: 20px;
+    margin-right: 120px;
+}
+
+.upbtn {
+    width: 80px;
+    float: right;
+    margin-top: 10px;
+    display: none;
+}
+
+
+/*___________________________________ @media query_responsive mobile version ______________________________________*/
+
+@media screen and (max-width: 600px) {
+    /* sidebar */
+    .sidebar {
+        position: absolute;
+        width: 640px;
+        height: 116%;
+        overflow: hidden;
+    }
+    .sidebar img {
+        width: 100%;
+    }
+    .nav-menu {
+        display: none;
+    }
+    .name h3 {
+        font-size: 30px;
+        padding: 30px 150px;
+    }
+    .name p {
+        font-size: 22px;
+        padding: 70px 150px;
+        line-height: 30px;
+    }
+    .icons {
+        left: 240px;
+        top: 95%;
+    }
+    .icons i {
+        font-size: 30px;
+        margin: 0 20px 0 0;
+    }
+    /* about me */
+    main {
+        position: absolute;
+        top: 114%;
+        margin-left: 45px;
+    }
+    h1 {
+        font-size: 50px;
+        margin: 110px 0 40px 0;
+    }
+    .fonts {
+        font-size: 64px;
+        margin: -130px 20px;
+        color: rgba(0, 0, 0, 0.212);
+    }
+    #about,
+    p {
+        font-size: 22px;
+    }
+    button {
+        font-size: 18px;
+        margin-top: 60px;
+        margin-bottom: 10px;
+    }
+    /* portfolio */
+    .font {
+        font-size: 65px;
+        margin: -130px 30px;
+        color: rgba(0, 0, 0, 0.103);
+    }
+    .container img {
+        width: 550px;
+    }
+    .gallery {
+        gap: 15px;
+    }
+    .text {
+        font-size: 14px;
+    }
+    .container:hover .overlay {
+        height: 10%;
+    }
+    /* contact */
+    .social {
+        padding: 30px 0;
+    }
+    .fa-solid,
+    .fa-brands {
+        line-height: 10px;
+        font-size: 20px;
+    }
+    .social a {
+        color: #111;
+        font-size: 20px;
+        margin-right: 120px;
+    }
+    .mockup {
+        display: none;
+    }
+    .upbtn {
+        position: absolute;
+        display: block;
+        top: 97%;
+        left: 85%;
+    }
+}
