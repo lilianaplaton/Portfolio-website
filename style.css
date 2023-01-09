@@ -244,31 +244,31 @@
                       }
                       /*___________________________________ @media query_responsive mobile version ______________________________________*/
                       
-                      @media screen and (max-width: 480px) {
+                      @media screen and (max-width: 608px) {
                           .sidebar {
                               position: absolute;
-                              width: 480px;
-                              height: 78%;
+                              width: 310px;
+                              height: 60%;
                               overflow: hidden;
                           }
                           .sidebar img {
                               width: 100%;
                           }
                           .name h3 {
-                              font-size: 24px;
-                              padding: 22px 70px;
+                              font-size: 20px;
+                              padding: 22px 35px;
                           }
                           .name p {
-                              font-size: 18px;
-                              padding: 50px 70px;
+                              font-size: 15px;
+                              padding: 40px 35px;
                               line-height: 20px;
                           }
                           .icons i {
-                              font-size: 26px;
+                              font-size: 24px;
                           }
                           .icons {
-                              left: 150px;
-                              top: 93%;
+                              left: 100px;
+                              top: 88%;
                           }
                           .nav-menu {
                               display: none;
@@ -276,7 +276,7 @@
                           /* about me */
                           main {
                               position: absolute;
-                              top: 78%;
+                              top: 60%;
                               margin-left: 20px;
                           }
                           h1 {
@@ -286,6 +286,6 @@
                               font-size: 14px;
                           }
                           .gallery img {
-                              width: 370px;
+                              width: 270px;
                           }
                       }
