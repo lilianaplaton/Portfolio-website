@@ -248,9 +248,11 @@
                           .sidebar {
                               position: relative;
                               width: 100%;
-                              height: auto;
+                              height: 850px;
+                              overflow: hidden;
                           }
                           .sidebar img {
+                              display: initial;
                               width: 100%;
                               height: auto;
                           }
@@ -267,16 +269,17 @@
                               font-size: 24px;
                           }
                           .icons {
+                              position: relative;
                               left: 100px;
-                              top: 88%;
+                              top: 10%;
                           }
                           .nav-menu {
                               display: none;
                           }
                           /* about me */
                           main {
-                              position: absolute;
-                              top: 90%;
+                              position: relative;
+                              top: 130%;
                               margin-left: 20px;
                           }
                           h1 {
