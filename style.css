@@ -32,27 +32,27 @@
              height: auto;
          }
          
-         .name {
+         .name,
+         .icons {
              font-family: 'Syncopate', sans-serif;
              text-align: center;
              font-size: 15px;
-             padding: 20px 0 2px 0;
+             padding: 10px 0 10px 0;
          }
          
-         .name p {
+         .name h5 {
+             font-weight: 400;
              font-size: 12px;
              letter-spacing: 0.08em;
              color: rgba(209, 209, 209, 0.959);
          }
          
-         .icons {
-             padding: 0 30px;
-         }
-         
          .icons i {
+             font-size: 18px;
              color: #fff;
-             margin: 0 5px;
              transition: 0.5s;
+             margin: auto;
+             padding: 5px 10px 0 0;
          }
          
          .icons i:hover {
@@ -70,8 +70,7 @@
              padding: 70px 0 0 30px;
          }
          
-         .nav-menu,
-         a {
+         .nav-menu a {
              padding: 0 -1px 0 0;
              color: #fff;
              transition: 0.5s;
@@ -121,6 +120,7 @@
          
          #about,
          p {
+             max-width: 47em;
              font-size: 1em;
          }
          /*button*/
@@ -229,9 +229,9 @@
              margin-top: 10px;
              display: none;
          }
-         /*___________________________________ @media query_responsive mobile version ______________________________________*/
+         /*____________ @media query_ small laptop screen_768px___________*/
          
-         @media (max-width: 640px) {
+         @media (max-width: 768px) {
              html,
              body {
                  width: 100%;
@@ -250,27 +250,24 @@
                  width: 100%;
                  height: auto;
              }
-             .nav-menu {
-                 display: none;
+             .name {
+                 font-size: 2em;
+                 padding: 30px 0 20px 0;
              }
-             .name,
-             .icons {
-                 font-size: 28px;
-                 padding: 30px 0 10px 0;
-                 text-align: center;
-             }
-             .name p {
-                 font-size: 23px;
-                 letter-spacing: 0.04em;
+             .name h5 {
+                 font-size: 0.8em;
              }
              .icons i {
-                 font-size: 35px;
-                 padding: 0 15px 30px 0;
+                 font-size: 1.9em;
+                 padding: 10px 18px 25px 0;
+             }
+             .nav-menu {
+                 display: none;
              }
              /*about me*/
              main {
                  position: relative;
-                 margin: 0 40px;
+                 margin: 0 50px;
              }
              h1 {
                  font-size: 48px;
@@ -294,11 +291,11 @@
                  gap: 25px;
              }
              .image {
-                 width: 580px;
+                 width: 680px;
              }
              .container:hover .overlay {
                  height: 10%;
-                 padding: 10px;
+                 padding: 15px;
              }
              /*contact*/
              .mockup {
