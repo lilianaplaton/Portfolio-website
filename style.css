@@ -1,297 +1,311 @@
- @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Syncopate:wght@400;700&display=swap');
- * {
-     margin: 0;
-     padding: 0;
-     text-decoration: none;
-     box-sizing: border-box;
- }
- 
- body {
-     font-family: 'Roboto', sans-serif;
-     background-color: #f9f9f9ed;
-     text-align: justify;
- }
- 
- li {
-     list-style-type: none;
- }
- /*___________________ sidebar ___________________*/
- 
- .sidebar {
-     position: fixed;
-     top: 0;
-     max-width: 250px;
-     height: 100%;
-     background: #111;
-     color: #fff;
- }
- 
- .sidebar img {
-     width: 250px;
-     height: auto;
- }
- 
- .nav-menu {
-     position: absolute;
-     font-size: 16px;
-     font-family: 'Syncopate', sans-serif;
-     font-weight: 700;
-     line-height: 35px;
-     letter-spacing: 0.04em;
-     text-align: left;
-     padding: 150px 25px;
- }
- 
- .nav-menu,
- a {
-     color: #fff;
-     transition: 0.5s;
- }
- 
- .nav-menu a:hover {
-     -webkit-text-fill-color: transparent;
-     -webkit-text-stroke-width: 0.2px;
-     font-size: 17px;
- }
- 
- .name h3 {
-     position: absolute;
-     padding: 10px 25px;
-     font-family: 'Syncopate', sans-serif;
-     font-size: 16px;
- }
- 
- .name p {
-     position: absolute;
-     padding: 30px 25px;
-     font-family: 'Syncopate', sans-serif;
-     font-size: 12px;
-     line-height: 14px;
-     text-align: center;
-     color: rgba(225, 218, 218, 0.715);
- }
- 
- .icons {
-     position: absolute;
-     left: 25px;
-     top: 600px;
- }
- 
- .icons i {
-     color: #fff;
-     font-size: 1em;
-     margin: 0 10px 0 0;
-     transition: 0.5s;
- }
- 
- .icons i:hover {
-     transform: scale(1) translateY(-6px)
- }
- /*___________________ about me ___________________*/
- 
- main {
-     position: absolute;
-     margin: 0 80px 0 330px;
-     font-size: 20px;
- }
- 
- h1 {
-     position: relative;
-     font-family: 'Syncopate', sans-serif;
-     font-size: 50px;
-     margin: 90px 0 40px 0;
- }
- 
- .font {
-     position: absolute;
-     font-family: 'Syncopate', sans-serif;
-     font-weight: 700;
-     margin: -140px 20px;
-     font-size: 80px;
-     letter-spacing: 0.05em;
-     color: rgba(0, 0, 0, 0.05);
- }
- 
- .fonts {
-     position: absolute;
-     font-family: 'Syncopate', sans-serif;
-     font-weight: 700;
-     margin: -140px 20px;
-     font-size: 80px;
-     letter-spacing: 0.05em;
-     color: rgba(0, 0, 0, 0.11);
-     -webkit-text-fill-color: transparent;
-     -webkit-text-stroke-width: 1px;
- }
- 
- #about,
- p {
-     max-width: 46.5em;
-     font-size: 1em;
- }
- /*button*/
- 
- button {
-     font-size: 16px;
-     font-weight: 600;
-     color: #fff;
-     padding: 12px 25px;
-     margin-top: 80px;
-     background: #111;
-     cursor: pointer;
-     border: none;
-     border-radius: 4px;
-     margin-bottom: 40px;
-     transition: 0.5s;
- }
- 
- button:hover {
-     background-color: #fff;
-     border: 1px solid #111;
-     color: #111;
- }
- /*___________________ portfolio ___________________*/
- 
- .description {
-     margin-bottom: 30px;
- }
- 
- img {
-     max-width: 100%;
-     object-fit: cover;
- }
- 
- .gallery {
-     display: flex;
-     max-width: 1200px;
-     flex-wrap: wrap;
-     gap: 15px;
-     justify-content: left;
-     cursor: pointer;
- }
- 
- .container {
-     position: relative;
- }
- 
- .image {
-     display: block;
-     height: auto;
- }
- 
- .image:hover {
-     opacity: 0.5;
- }
- 
- .overlay {
-     position: absolute;
-     bottom: 0;
-     left: 0;
-     right: 0;
-     background-color: #111;
-     max-width: 100%;
-     height: 0;
-     border-radius: 15px 15px 0 0;
-     transition: .5s ease;
- }
- 
- .container:hover .overlay {
-     max-width: 100%;
-     height: 12%;
-     padding: 11px;
- }
- 
- .text {
-     font-family: 'Syncopate', sans-serif;
-     color: #fff;
-     font-size: 14px;
-     max-width: 100%;
-     text-align: left;
-     letter-spacing: 0.08em;
- }
- /*____________________ contact ____________________*/
- 
- .social {
-     display: flex;
-     align-items: center;
-     padding: 50px 0;
-     flex-wrap: wrap;
- }
- 
- .fa-solid,
- .fa-brands {
-     color: #111;
-     margin-right: 25px;
-     padding: 15px 0;
-     line-height: 20px;
-     font-size: 20px;
- }
- 
- .social a {
-     color: #111;
-     font-size: 20px;
-     margin-right: 120px;
- }
- 
- .upbtn {
-     max-width: 80px;
-     float: right;
-     margin-top: 10px;
-     display: none;
- }
- /*___________________________________ @media query_responsive mobile version ______________________________________*/
- 
- @media (max-width: 640px) {
-     html,
-     body {
-         width: 100%;
-         height: 100%;
-         margin: 0;
-         padding: 0;
-         overflow-x: hidden;
-     }
-     /*sidebar*/
-     .sidebar {
-         position: absolute;
-         min-width: 640px;
-         height: 108%;
-     }
-     .sidebar img {
-         min-width: 640px;
-         height: auto;
-     }
-     .name h3 {
-         padding: 30px 110px;
-         font-size: 2.3em;
-     }
-     .name p {
-         display: none;
-     }
-     .icons {
-         left: 230px;
-         top: 92%;
-     }
-     .icons i {
-         font-size: 2.5em;
-         margin: 0 30px 0 0;
-     }
-     /*about me*/
-     main {
-         position: absolute;
-         top: 108%;
-         margin-left: 50px;
-         margin-right: 50px;
-     }
-     .nav-menu {
-         display: none;
-     }
-     #about,
-     p {
-         font-size: 1.1em;
-     }
-     /*portfolio*/
-     .gallery img {
-         min-width: 119%;
-     }
-     /*contact*/
- }
+         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Syncopate:wght@400;700&display=swap');
+         * {
+             margin: 0;
+             padding: 0;
+             text-decoration: none;
+             box-sizing: border-box;
+         }
+         
+         body {
+             font-family: 'Roboto', sans-serif;
+             background-color: #f9f9f9ed;
+             text-align: justify;
+         }
+         
+         li {
+             list-style-type: none;
+         }
+         /*___________________ sidebar ___________________*/
+         
+         .sidebar {
+             position: fixed;
+             top: 0;
+             width: 260px;
+             height: 100%;
+             background: #111;
+             color: #fff;
+             overflow-y: auto;
+         }
+         
+         .sidebar img {
+             width: 260px;
+             height: auto;
+         }
+         
+         .name {
+             font-family: 'Syncopate', sans-serif;
+             text-align: center;
+             font-size: 15px;
+             padding: 20px 0 2px 0;
+         }
+         
+         .name p {
+             font-size: 12px;
+             letter-spacing: 0.08em;
+             color: rgba(209, 209, 209, 0.959);
+         }
+         
+         .icons {
+             padding: 0 30px;
+         }
+         
+         .icons i {
+             color: #fff;
+             margin: 0 5px;
+             transition: 0.5s;
+         }
+         
+         .icons i:hover {
+             transform: scale(1) translateY(-6px)
+         }
+         
+         .nav-menu {
+             position: absolute;
+             font-size: 16px;
+             font-family: 'Syncopate', sans-serif;
+             font-weight: 700;
+             line-height: 35px;
+             letter-spacing: 0.04em;
+             text-align: left;
+             padding: 70px 0 0 30px;
+         }
+         
+         .nav-menu,
+         a {
+             padding: 0 -1px 0 0;
+             color: #fff;
+             transition: 0.5s;
+         }
+         
+         .nav-menu a:hover {
+             -webkit-text-fill-color: transparent;
+             -webkit-text-stroke-width: 0.2px;
+             font-size: 17px;
+         }
+         /*___________________ about me ___________________*/
+         
+         main {
+             position: absolute;
+             margin: 0 80px 0 330px;
+             font-size: 20px;
+         }
+         
+         h1 {
+             position: relative;
+             font-family: 'Syncopate', sans-serif;
+             font-size: 50px;
+             margin: 90px 0 40px 0;
+         }
+         
+         .font {
+             position: absolute;
+             font-family: 'Syncopate', sans-serif;
+             font-weight: 700;
+             margin: -140px 20px;
+             font-size: 80px;
+             letter-spacing: 0.05em;
+             color: rgba(0, 0, 0, 0.05);
+         }
+         
+         .fonts {
+             position: absolute;
+             font-family: 'Syncopate', sans-serif;
+             font-weight: 700;
+             margin: -140px 20px;
+             font-size: 80px;
+             letter-spacing: 0.05em;
+             color: rgba(0, 0, 0, 0.11);
+             -webkit-text-fill-color: transparent;
+             -webkit-text-stroke-width: 1px;
+         }
+         
+         #about,
+         p {
+             font-size: 1em;
+         }
+         /*button*/
+         
+         button {
+             font-size: 16px;
+             font-weight: 600;
+             color: #fff;
+             padding: 12px 25px;
+             margin-top: 80px;
+             background: #111;
+             cursor: pointer;
+             border: none;
+             border-radius: 4px;
+             margin-bottom: 40px;
+             transition: 0.5s;
+         }
+         
+         button:hover {
+             background-color: #fff;
+             border: 1px solid #111;
+             color: #111;
+         }
+         /*___________________ portfolio ___________________*/
+         
+         .description {
+             margin-bottom: 30px;
+         }
+         
+         .gallery {
+             display: flex;
+             max-width: 1200px;
+             flex-wrap: wrap;
+             gap: 15px;
+             justify-content: left;
+             cursor: pointer;
+         }
+         
+         .container {
+             position: relative;
+         }
+         
+         .image {
+             display: block;
+             height: auto;
+         }
+         
+         .image:hover {
+             opacity: 0.5;
+         }
+         
+         .overlay {
+             position: absolute;
+             bottom: 0;
+             left: 0;
+             right: 0;
+             background-color: #111;
+             max-width: 100%;
+             height: 0;
+             border-radius: 15px 15px 0 0;
+             transition: .5s ease;
+         }
+         
+         .container:hover .overlay {
+             max-width: 100%;
+             height: 12%;
+             padding: 11px;
+         }
+         
+         .text {
+             font-family: 'Syncopate', sans-serif;
+             color: #fff;
+             font-size: 14px;
+             max-width: 100%;
+             text-align: left;
+             letter-spacing: 0.08em;
+         }
+         /*____________________ contact ____________________*/
+         
+         .social {
+             display: flex;
+             align-items: center;
+             padding: 50px 0;
+             flex-wrap: wrap;
+         }
+         
+         .fa-solid,
+         .fa-brands,
+         .fa-circle-phone {
+             color: #111;
+             margin-right: 25px;
+             padding: 15px 0;
+             line-height: 20px;
+             font-size: 20px;
+         }
+         
+         .social a {
+             color: #111;
+             font-size: 20px;
+             margin-right: 120px;
+         }
+         
+         .upbtn {
+             max-width: 100px;
+             float: right;
+             margin-top: 10px;
+             display: none;
+         }
+         /*___________________________________ @media query_responsive mobile version ______________________________________*/
+         
+         @media (max-width: 640px) {
+             html,
+             body {
+                 width: 100%;
+                 height: 100%;
+                 margin: 0;
+                 padding: 0;
+                 overflow-x: hidden;
+             }
+             /*sidebar*/
+             .sidebar {
+                 position: relative;
+                 width: 100%;
+                 height: auto;
+             }
+             .sidebar img {
+                 width: 100%;
+                 height: auto;
+             }
+             .nav-menu {
+                 display: none;
+             }
+             .name,
+             .icons {
+                 font-size: 28px;
+                 padding: 30px 0 10px 0;
+                 text-align: center;
+             }
+             .name p {
+                 font-size: 23px;
+                 letter-spacing: 0.04em;
+             }
+             .icons i {
+                 font-size: 35px;
+                 padding: 0 15px 30px 0;
+             }
+             /*about me*/
+             main {
+                 position: relative;
+                 margin: 0 40px;
+             }
+             h1 {
+                 font-size: 48px;
+             }
+             .fonts {
+                 margin: -130px 20px;
+                 font-size: 60px;
+                 letter-spacing: 0.1em;
+             }
+             .font {
+                 font-size: 65px;
+                 margin: -130px 20px;
+             }
+             button {
+                 font-size: 20px;
+             }
+             /*portfolio*/
+             .gallery,
+             img {
+                 max-width: 100%;
+                 gap: 25px;
+             }
+             .image {
+                 width: 580px;
+             }
+             .container:hover .overlay {
+                 height: 10%;
+                 padding: 10px;
+             }
+             /*contact*/
+             .mockup {
+                 display: none;
+             }
+             .upbtn {
+                 display: block;
+             }
+         }
+         /*
