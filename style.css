@@ -103,7 +103,7 @@
              margin: -140px 20px;
              font-size: 80px;
              letter-spacing: 0.05em;
-             color: rgba(0, 0, 0, 0.05);
+             color: rgba(0, 0, 0, 0.089);
          }
          
          .fonts {
@@ -203,7 +203,7 @@
          .social {
              display: flex;
              align-items: center;
-             padding: 50px 0;
+             padding: 40px 0;
              flex-wrap: wrap;
          }
          
@@ -250,59 +250,4 @@
                  width: 100%;
                  height: auto;
              }
-             .name {
-                 font-size: 2em;
-                 padding: 30px 0 20px 0;
-             }
-             .name h5 {
-                 font-size: 0.8em;
-             }
-             .icons i {
-                 font-size: 1.9em;
-                 padding: 10px 18px 25px 0;
-             }
-             .nav-menu {
-                 display: none;
-             }
-             /*about me*/
-             main {
-                 position: relative;
-                 margin: 0 50px;
-             }
-             h1 {
-                 font-size: 48px;
-             }
-             .fonts {
-                 margin: -130px 20px;
-                 font-size: 60px;
-                 letter-spacing: 0.1em;
-             }
-             .font {
-                 font-size: 65px;
-                 margin: -130px 20px;
-             }
-             button {
-                 font-size: 20px;
-             }
-             /*portfolio*/
-             .gallery,
-             img {
-                 max-width: 100%;
-                 gap: 25px;
-             }
-             .image {
-                 width: 680px;
-             }
-             .container:hover .overlay {
-                 height: 10%;
-                 padding: 15px;
-             }
-             /*contact*/
-             .mockup {
-                 display: none;
-             }
-             .upbtn {
-                 display: block;
-             }
          }
-         /*
