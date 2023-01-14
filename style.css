@@ -241,7 +241,7 @@
          
          footer a {
              color: #fff;
-             font-size: 20px;
+             font-size: 30px;
              transition: 0.5s;
          }
          
@@ -250,7 +250,7 @@
          }
          /*____________ media queries (480px)___________*/
          
-         @media (max-width: 480px) {
+         @media (max-width: 420px) {
              html,
              body {
                  margin: 0;
@@ -270,16 +270,16 @@
                  height: auto;
              }
              .name {
-                 font-size: 22px;
+                 font-size: 18px;
                  padding: 30px 0 10px 0;
                  width: 100%;
                  height: auto;
              }
              .name h5 {
-                 font-size: 17px;
+                 font-size: 14px;
              }
              .icons i {
-                 font-size: 24px;
+                 font-size: 22px;
                  padding: 10px 10px 20px 0;
              }
              .nav-menu {
@@ -288,41 +288,40 @@
              /*about me*/
              main {
                  position: relative;
-                 left: 30px;
-                 margin-right: 60px;
+                 left: 25px;
+                 margin-right: 50px;
                  font-size: 16px;
              }
              h1 {
-                 font-size: 40px;
-                 margin: 60px 0 40px 0;
+                 font-size: 30px;
+                 margin: 50px 0 30px 0;
              }
              .fonts,
              .font {
-                 font-size: 48px;
-                 margin: -110px 20px;
+                 font-size: 35px;
+                 margin: -80px 20px;
              }
              /*portfolio*/
              .gallery {
-                 display: grid;
                  grid-template-columns: repeat(1, 1fr);
              }
              .text {
-                 font-size: 13px;
+                 font-size: 11px;
              }
              /*contact*/
              .contact-page h1 {
-                 margin-top: 80px;
+                 margin-top: 70px;
              }
              .nav-social li {
-                 margin: 50px 15px 20px 0;
-                 font-size: 24px;
+                 margin: 50px 18px 10px 0;
+                 font-size: 20px;
              }
              .social {
-                 font-size: 18px;
+                 font-size: 16px;
              }
              /*footer*/
              footer {
                  visibility: visible;
-                 margin-top: 30px;
+                 margin-top: 40px;
              }
          }
