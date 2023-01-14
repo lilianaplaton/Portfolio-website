@@ -16,17 +16,16 @@
 
     <!--________________________________________ sidebar ________________________________________-->
 
-    <div class="sidebar">
+    <div class="sidebar" id="sidebar">
         <img src="./img/avatar.svg" alt="avatar">
         <div class="name">
             <h3>LILIANA PLATON</h3>
             <h5>Front End Developer<br>wanna be</h5>
         </div>
         <div class="icons">
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=platonliliana1409@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
             <a href="https://github.com/lilianaplaton?tab=repositories" target="_blank"><i class="fa-brands fa-github"></i><a>
             <a href="https://www.linkedin.com/in/lilianaplaton/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-            <a href="tel:+40757536817" target="_blank"><i class="fa-solid fa-square-phone"></i></a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=platonliliana1409@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
         </div>
         <div class="nav-menu">
             <ul>
@@ -35,12 +34,13 @@
                 <li><a href="#contact">contact</a></li>
             </ul>
         </div>
+
     </div>
 
     <!--_______________________________________ about me _______________________________________-->
 
     <main>
-        <div id="about">
+        <section class="intro" id="about">
             <h1>about me</h1>
             <p class="fonts">about me</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla natus, non quis magni esse officia iusto quam quidem nihil qui quasi omnis doloremque nisi a itaque consectetur ea illum quo.Lorem ipsum dolor sit amet consectetur adipisicing
@@ -50,11 +50,11 @@
             <p>Skills: Figma | HTML5 | CSS3 | GIT | JavaScript | Photoshop</p>
 
             <a href="#" target="_blank"><button type="button">MY RESUME</button></a>
-        </div>
+        </section>
 
         <!--_____________________________________ portfolio ______________________________________-->
 
-        <div id="portfolio">
+        <section class="my work" id="portfolio">
             <h1>portfolio</h1>
             <p class="font">portfolio</p>
             <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto aspernatur at unde, quam perferendis impedit dolor. Voluptas officiis, aut odit sapiente nulla, incidunt quasi ullam sed cumque, iusto quibusdam? Commodi. Lorem ipsum dolor sit
@@ -98,45 +98,39 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-
-        <div class="container">
-            <img src="./img/img5.svg" alt="notepad cover mockup" class="image">
-            <div class="overlay">
-                <div class="text">notepad cover</div>
-            </div>
-        </div>
-        <div class="container">
-            <img src="./img/img6.svg" alt="business card mockup" class="image">
-            <div class="overlay">
-                <div class="text">business card</div>
-            </div>
-        </div>
-        </div>
-        </div>
         <!--____________________________________ contact _________________________________________-->
 
-        <div id="contact">
+        <section class="contact-page" id="contact">
             <h1>contact</h1>
             <p class="fonts">contact</p>
             <p>If this wasn't enough you can also find out a little more about me here:</p>
+            <ul class="nav-social">
+                <li><a href="https://github.com/lilianaplaton" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                <li>
+                    <a href="https://www.linkedin.com/in/lilianaplaton/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                </li>
+                <li>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=platonliliana1409@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                </li>
+                <li><a href="tel:0757536817"><i class="fa-solid fa-mobile-screen-button"></i></a></li>
+            </ul>
             <div class="social">
-                <div class="social-icons">
-                    <ul>
-                        <li><a href="tel:+40757536817" rel="noopener"><i class="fa-solid fa-mobile-screen-button"></i>(+40) 757 536 817</li></a>
-                            <li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=platonliliana1409@gmail.com" rel="noopener" target="_blank"><i class="fa-solid fa-envelope"></i>platonliliana1409@gmail.com</li></a>
-                                <li><a href=""><i class="fa-sharp fa-solid fa-location-dot"></i>Cluj-Napoca, Romania</li></a>
-                                    <li><a href="https://github.com/lilianaplaton?tab=repositories" rel="noopener" target="_blank"><i class="fa-brands fa-github"></i>github.com/lilianaplaton</li></a>
-                                        <li><a href="https://www.linkedin.com/in/lilianaplaton/" rel="noopener" target="_blank"><i class="fa-brands fa-linkedin-in"></i>linkedin.com/in/lilianaplaton/</li></a>
-                    </ul>
-                </div>
-                <img src="./img/contact mockup.svg" alt="contact mockup" class="mockup">
+                <ul>
+                    <li>(+40) 757 536 817</li>
+                    <li>Cluj-Napoca, Romania</li>
+                    <li>platonliliana1409@gmail.com</li>
+                </ul>
             </div>
-            <div id="about me">
-                <a href=""><img src="./img/up squared.svg " alt="up squared button" class="upbtn"></a>
-            </div>
-        </div>
+        </section>
+
+        <!--____________________________________ footer _________________________________________-->
+
+        <footer>
+            <p>Copyright &copy Liliana Platon, 2023</p>
+            <a href="#sidebar"><i class="fa-solid fa-circle-chevron-up"></i></a>
+        </footer>
     </main>
 
 </body>

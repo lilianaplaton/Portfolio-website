@@ -20,6 +20,7 @@
          .sidebar {
              position: fixed;
              top: 0;
+             bottom: 0;
              width: 260px;
              height: 100%;
              background: #111;
@@ -61,17 +62,18 @@
          
          .nav-menu {
              position: absolute;
+             bottom: 20px;
              font-size: 16px;
              font-family: 'Syncopate', sans-serif;
              font-weight: 700;
              line-height: 35px;
-             letter-spacing: 0.04em;
+             letter-spacing: 0.06em;
              text-align: left;
              padding: 70px 0 0 30px;
+             max-width: 50vw;
          }
          
          .nav-menu a {
-             padding: 0 -1px 0 0;
              color: #fff;
              transition: 0.5s;
          }
@@ -85,8 +87,11 @@
          
          main {
              position: absolute;
-             margin: 0 80px 0 330px;
-             font-size: 20px;
+             background-position: center;
+             top: 20px;
+             right: 60px;
+             left: 320px;
+             font-size: 18px;
          }
          
          h1 {
@@ -117,12 +122,6 @@
              -webkit-text-fill-color: transparent;
              -webkit-text-stroke-width: 1px;
          }
-         
-         #about,
-         p {
-             max-width: 47em;
-             font-size: 1em;
-         }
          /*button*/
          
          button {
@@ -151,12 +150,11 @@
          }
          
          .gallery {
-             display: flex;
-             max-width: 1200px;
-             flex-wrap: wrap;
+             display: grid;
+             grid-template-columns: repeat(2, 1fr);
              gap: 15px;
-             justify-content: left;
              cursor: pointer;
+             max-width: 3000px;
          }
          
          .container {
@@ -164,7 +162,7 @@
          }
          
          .image {
-             display: block;
+             width: 100%;
              height: auto;
          }
          
@@ -178,66 +176,87 @@
              left: 0;
              right: 0;
              background-color: #111;
-             max-width: 100%;
+             width: 100%;
              height: 0;
              border-radius: 15px 15px 0 0;
              transition: .5s ease;
          }
          
          .container:hover .overlay {
-             max-width: 100%;
-             height: 12%;
-             padding: 11px;
+             width: 100%;
+             height: auto;
+             padding: 10px;
          }
          
          .text {
              font-family: 'Syncopate', sans-serif;
              color: #fff;
              font-size: 14px;
-             max-width: 100%;
              text-align: left;
              letter-spacing: 0.08em;
          }
          /*____________________ contact ____________________*/
          
+         .contact-page h1 {
+             margin-top: 150px;
+         }
+         
          .social {
+             line-height: 30px;
+             font-size: 20px;
+             top: 40px;
+         }
+         
+         .nav-social {
              display: flex;
+         }
+         
+         .nav-social li a {
+             color: #111;
+         }
+         
+         .nav-social li {
+             margin: 60px 20px 20px 0;
+             font-size: 25px;
+             transition: 0.5s;
+         }
+         
+         .nav-social li:hover {
+             transform: scale(1) translateY(-6px)
+         }
+         /*____________________ footer ____________________*/
+         
+         footer {
+             visibility: hidden;
+             display: flex;
+             justify-content: space-between;
              align-items: center;
-             padding: 40px 0;
-             flex-wrap: wrap;
+             font-size: 11px;
+             letter-spacing: 0.1em;
+             background-color: #111;
+             color: #fff;
+             padding: 10px 30px;
+             border-radius: 20px 20px 0 0;
          }
          
-         .fa-solid,
-         .fa-brands,
-         .fa-circle-phone {
-             color: #111;
-             margin-right: 25px;
-             padding: 15px 0;
-             line-height: 20px;
+         footer a {
+             color: #fff;
              font-size: 20px;
+             transition: 0.5s;
          }
          
-         .social a {
-             color: #111;
-             font-size: 20px;
-             margin-right: 120px;
+         footer a:hover {
+             transform: scale(1.2);
          }
+         /*____________ media queries (480px)___________*/
          
-         .upbtn {
-             max-width: 100px;
-             float: right;
-             margin-top: 10px;
-             display: none;
-         }
-         /*____________ @media query_ small laptop screen_768px___________*/
-         
-         @media (max-width: 500px) {
+         @media (max-width: 480px) {
              html,
              body {
-                 width: 100%;
-                 height: 100%;
                  margin: 0;
                  padding: 0;
+                 height: 100%;
+                 width: 100%;
                  overflow-x: hidden;
              }
              /*sidebar*/
@@ -249,5 +268,61 @@
              .sidebar img {
                  width: 100%;
                  height: auto;
+             }
+             .name {
+                 font-size: 22px;
+                 padding: 30px 0 10px 0;
+                 width: 100%;
+                 height: auto;
+             }
+             .name h5 {
+                 font-size: 17px;
+             }
+             .icons i {
+                 font-size: 24px;
+                 padding: 10px 10px 20px 0;
+             }
+             .nav-menu {
+                 display: none;
+             }
+             /*about me*/
+             main {
+                 position: relative;
+                 left: 30px;
+                 margin-right: 60px;
+                 font-size: 16px;
+             }
+             h1 {
+                 font-size: 40px;
+                 margin: 60px 0 40px 0;
+             }
+             .fonts,
+             .font {
+                 font-size: 48px;
+                 margin: -110px 20px;
+             }
+             /*portfolio*/
+             .gallery {
+                 display: grid;
+                 grid-template-columns: repeat(1, 1fr);
+             }
+             .text {
+                 font-size: 13px;
+             }
+             /*contact*/
+             .contact-page h1 {
+                 margin-top: 80px;
+             }
+             .nav-social li {
+                 margin: 50px 15px 20px 0;
+                 font-size: 24px;
+             }
+             .social {
+                 font-size: 18px;
+             }
+             /*footer*/
+             footer {
+                 visibility: visible;
+                 margin-top: 30px;
              }
          }
