@@ -20,7 +20,6 @@
          .sidebar {
              position: fixed;
              top: 0;
-             bottom: 0;
              width: 260px;
              height: 100%;
              background: #111;
@@ -279,8 +278,8 @@
                  font-size: 14px;
              }
              .icons i {
-                 font-size: 22px;
-                 padding: 10px 10px 20px 0;
+                 font-size: 24px;
+                 padding: 10px 14px 20px 0;
              }
              .nav-menu {
                  display: none;
@@ -298,15 +297,15 @@
              }
              .fonts,
              .font {
-                 font-size: 35px;
-                 margin: -80px 20px;
+                 font-size: 38px;
+                 margin: -85px 20px;
              }
              /*portfolio*/
              .gallery {
                  grid-template-columns: repeat(1, 1fr);
              }
              .text {
-                 font-size: 10px;
+                 font-size: 11px;
              }
              /*contact*/
              .contact-page h1 {
