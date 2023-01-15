@@ -97,7 +97,7 @@
              position: relative;
              font-family: 'Syncopate', sans-serif;
              font-size: 50px;
-             margin: 90px 0 40px 0;
+             margin: 70px 0 40px 0;
          }
          
          .font {
@@ -197,7 +197,7 @@
          /*____________________ contact ____________________*/
          
          .contact-page h1 {
-             margin-top: 140px;
+             margin-top: 110px;
          }
          
          .social {
@@ -313,7 +313,7 @@
              }
              .nav-social li {
                  margin: 40px 16px 10px 0;
-                 font-size: 18px;
+                 font-size: 20px;
              }
              .social {
                  font-size: 16px;
@@ -323,4 +323,9 @@
                  visibility: visible;
                  margin-top: 60px;
              }
+         }
+         /*____________ media queries (768px)___________*/
+         
+         @media (max-width:768px) {
+             /*about me*/
          }
