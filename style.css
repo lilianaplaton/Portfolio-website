@@ -423,7 +423,7 @@ footer a:hover {
         font-size: 15px;
     }
     .icons i {
-        font-size: 24px;
+        font-size: 25px;
         padding: 10px 12px 20px 0;
     }
     /*about me*/
@@ -436,7 +436,7 @@ footer a:hover {
         font-size: 14px;
         letter-spacing: 0.1em;
         margin-top: 40px;
-        margin-bottom: 30px;
+        margin-bottom: 50px;
     }
     h1 {
         font-size: 30px;
@@ -456,8 +456,8 @@ footer a:hover {
         margin-top: 70px;
     }
     .nav-social li {
-        margin: 40px 14px 10px 0;
-        font-size: 20px;
+        margin: 40px 15px 10px 0;
+        font-size: 22px;
     }
     .social {
         font-size: 16px;
@@ -465,6 +465,7 @@ footer a:hover {
     footer {
         font-size: 12px;
     }
+    /*footer*/
     footer a {
         font-size: 35px;
     }
