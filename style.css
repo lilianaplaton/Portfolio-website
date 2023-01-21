@@ -134,12 +134,12 @@ button {
     font-weight: 600;
     color: #fff;
     padding: 12px 25px;
-    margin-top: 80px;
+    margin-top: 60px;
     background: #111;
     cursor: pointer;
     border: none;
     border-radius: 4px;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
     transition: 0.5s;
 }
 
@@ -153,7 +153,11 @@ button:hover {
 /*___________________ portfolio ___________________*/
 
 .description {
-    margin-bottom: 30px;
+    margin-bottom: 35px;
+}
+
+label {
+    margin-right: 20px;
 }
 
 .gallery {
@@ -162,6 +166,7 @@ button:hover {
     gap: 15px;
     cursor: pointer;
     max-width: 3000px;
+    margin-top: 25px;
 }
 
 .container {
@@ -179,7 +184,7 @@ button:hover {
 
 .overlay {
     position: absolute;
-    bottom: 0;
+    bottom: 5px;
     left: 0;
     right: 0;
     background-color: #111;
@@ -197,7 +202,7 @@ button:hover {
 
 .text {
     font-family: 'Syncopate', sans-serif;
-    color: #fff;
+    color: #f9f9f9ed;
     font-size: 14px;
     text-align: left;
     letter-spacing: 0.08em;
@@ -206,8 +211,8 @@ button:hover {
 
 /*____________________ contact ____________________*/
 
-.contact-page h1 {
-    margin-top: 110px;
+.contact h1 {
+    margin-top: 100px;
 }
 
 .social {
@@ -225,7 +230,7 @@ button:hover {
 }
 
 .nav-social li {
-    margin: 60px 16px 10px 0;
+    margin: 40px 16px 10px 0;
     font-size: 20px;
     transition: 0.5s;
 }
@@ -318,6 +323,7 @@ footer a:hover {
         height: 100%;
         width: 100%;
         overflow-x: hidden;
+        border: 10px solid #111;
     }
     /*sidebar*/
     .sidebar {
