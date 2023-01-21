@@ -324,6 +324,7 @@ footer a:hover {
         width: 100%;
         overflow-x: hidden;
         border: 10px solid #111;
+        border-bottom: 0;
     }
     /*sidebar*/
     .sidebar {
@@ -354,8 +355,6 @@ footer a:hover {
     /*about me*/
     main {
         position: relative;
-        left: 40px;
-        margin-right: 80px;
         font-size: 18px;
     }
     h1 {
@@ -368,8 +367,8 @@ footer a:hover {
         margin: -110px 20px;
     }
     /*contact*/
-    .contact-page h1 {
-        margin-top: 70px;
+    .contact h1 {
+        margin-top: 60px;
     }
     .nav-social li {
         margin: 40px 16px 10px 0;
@@ -381,7 +380,7 @@ footer a:hover {
     /*footer*/
     footer {
         visibility: visible;
-        margin-top: 80px;
+        margin-top: 70px;
     }
 }
 
