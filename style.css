@@ -252,7 +252,6 @@ footer {
     background-color: #111;
     color: #fff;
     padding: 10px 30px;
-    border-radius: 40px 40px 0 0;
 }
 
 footer a {
@@ -445,16 +444,16 @@ footer a:hover {
     }
     h1 {
         font-size: 30px;
-        margin: 50px 0 20px 0;
+        margin: 40px 0 20px 0;
     }
     .font,
     .fonts {
-        font-size: 38px;
+        font-size: 34px;
         margin: -73px 20px;
     }
     /*portfolio*/
     .text {
-        font-size: 10px;
+        font-size: 10x;
     }
     /*contact*/
     .contact-page h1 {
