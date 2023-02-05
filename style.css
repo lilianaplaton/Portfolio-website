@@ -152,7 +152,6 @@
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
                 gap: 15px;
-                cursor: pointer;
                 max-width: 3000px;
                 margin-top: 25px;
             }
@@ -427,7 +426,7 @@
                 }
                 /*portfolio*/
                 .text {
-                    font-size: 9.5px;
+                    font-size: 10px;
                 }
                 /*contact*/
                 .contact-page h1 {
