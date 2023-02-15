@@ -194,6 +194,33 @@
                 text-align: left;
                 letter-spacing: 0.08em;
             }
+            /* filtering projects */
+            
+            .portfolio .filter-buttons {
+                width: 100%;
+                padding-top: 15px;
+                padding-bottom: 10px;
+            }
+            
+            .portfolio .filter-buttons ul {
+                text-align: left;
+            }
+            
+            .portfolio .filter-buttons ul li {
+                color: #111;
+                display: inline-block;
+                margin: 0px 12px;
+                cursor: pointer;
+                letter-spacing: 0.1em;
+            }
+            
+            .portfolio .filter-buttons ul li.active {
+                color: #fff;
+                background-color: #000000ee;
+                padding: 8px 20px;
+                border-radius: 20px;
+                transition: 0.5;
+            }
             /*____________________ contact ____________________*/
             
             .contact h1 {
