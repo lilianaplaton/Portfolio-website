@@ -21,9 +21,9 @@
                 position: fixed;
                 top: 0;
                 width: 260px;
-                height: 98%;
-                margin: 0 10px;
-                border-radius: 0 0 30px 30px;
+                height: 97%;
+                margin: 10px 10px;
+                border-radius: 15px;
                 background: #111;
                 color: #fff;
                 overflow-y: auto;
@@ -153,6 +153,7 @@
             
             .description {
                 margin-bottom: 35px;
+                line-height: 25px;
             }
             
             .gallery {
