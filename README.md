@@ -1,5 +1,3 @@
 # Personal portfolio website
 
-My personal portfolio presents various projects that I have worked on, including responsive websites, apps, brand identity, and print materials. 
-
-Engaging in these projects has allowed me to develop a deeper understanding of web development.
+My portfolio presents a variety of projects that I have worked on, responsive websites from scratch using HTML5, CSS3, and JavaScript, and designing UI/UX interfaces and brand identities using Figma and Photoshop.
