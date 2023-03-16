@@ -1,5 +1,3 @@
 # Personal portfolio website
 
-I created personal projects for small businesses, be it websites, UI/UX, logos, brand identity, or print.
-
-The skills, technologies, and tools I use to bring products to life are: Figma, Photoshop, video editor DaVinci Resolve, mockup, GIT, HTML5, CSS3, and JavaScript.
+My portfolio presents a variety of projects that I have worked on, responsive websites from scratch using HTML5, CSS3, and JavaScript, and designing UI/UX interfaces and brand identities using Figma and Photoshop.
