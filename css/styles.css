@@ -21,7 +21,7 @@
                 position: fixed;
                 top: 0;
                 width: 260px;
-                height: 98%;
+                height: 99%;
                 margin: 0 10px;
                 border-radius: 0 0 15px 15px;
                 background: #111;
@@ -151,10 +151,6 @@
             }
             /*___________________ portfolio ___________________*/
             
-            .portfolio h1 {
-                margin: 30px 0 40px 0;
-            }
-            
             .description {
                 margin-bottom: 35px;
                 line-height: 25px;
@@ -238,11 +234,6 @@
                 transition: 0.5;
             }
             /*____________________ contact ____________________*/
-            
-            .contact h1 {
-                margin: 70px 0 45px 0;
-                margin-top: 100px;
-            }
             
             .social {
                 line-height: 28px;
@@ -381,12 +372,12 @@
                 }
                 h1 {
                     font-size: 40px;
-                    margin: 70px 0 30px 0;
+                    margin: 70px 0 60px 0;
                 }
                 .fonts,
                 .font {
                     font-size: 65px;
-                    margin: -110px 20px;
+                    margin: -135px 20px;
                 }
                 /*contact*/
                 .nav-social li {
@@ -422,7 +413,7 @@
                 .font,
                 .fonts {
                     font-size: 55px;
-                    margin: -100px 20px;
+                    margin: -130px 20px;
                 }
                 /*portfolio*/
                 .text {
@@ -460,11 +451,11 @@
                 }
                 h1 {
                     font-size: 25px;
-                    margin: 35px 0 20px 0;
+                    margin: 40px 0 15px 0;
                 }
                 .font,
                 .fonts {
-                    font-size: 28px;
+                    font-size: 35px;
                     margin: -62px 20px;
                 }
                 /*portfolio*/
@@ -481,5 +472,24 @@
                 }
                 .social {
                     font-size: 16px;
+                }
+            }
+            
+            @media (max-width: 415px) {
+                .font,
+                .fonts {
+                    font-size: 33px;
+                    margin: -59px 20px;
+                }
+            }
+            
+            @media (max-width: 400px) {
+                h1 {
+                    font-size: 23px;
+                }
+                .font,
+                .fonts {
+                    font-size: 25px;
+                    margin: -53px 20px;
                 }
             }
