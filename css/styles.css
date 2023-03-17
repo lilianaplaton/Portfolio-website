@@ -54,7 +54,7 @@
                 color: #fff;
                 transition: 0.5s;
                 margin: auto;
-                padding: 5px 10px 0 0;
+                padding: 0 10px 0 0;
             }
             
             .icons i:hover {
@@ -90,7 +90,7 @@
                 position: absolute;
                 background-position: center;
                 top: 20px;
-                right: 60px;
+                right: 50px;
                 left: 320px;
                 font-size: 18px;
             }
